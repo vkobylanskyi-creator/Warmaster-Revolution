@@ -103,6 +103,11 @@
                     typeId="char-att"
                     name="Attacks">3/1</characteristic>
 
+characteristic
+    id="char-value-range-archers"
+    typeId="char-range"
+    name="Range">30cm</characteristic>
+
                 <characteristic
                     id="char-value-hits-archers"
                     typeId="char-hits"
@@ -117,6 +122,11 @@
                     id="char-value-size-archers"
                     typeId="char-size"
                     name="Size">3</characteristic>
+
+<characteristic
+    id="char-value-special-archers"
+    typeId="char-special"
+    name="Special Rules">Archers. High Elf archers add +1 to their dice rolls when making Shooting attacks. They will therefore score a hit against targets in the open on a 3 or more, against targets that are defended on a 4 or more, and against fortified targets on a 5 or more.</characteristic
 
             </characteristics>
 
