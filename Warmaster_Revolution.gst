@@ -58,45 +58,58 @@
 
         <categoryEntry
             id="cat-inf"
-            name="Infantry"/>
+            name="Infantry"
+            hidden="false"/>
 
         <categoryEntry
             id="cat-cav"
-            name="Cavalry"/>
+            name="Cavalry"
+            hidden="false"/>
 
         <categoryEntry
             id="cat-char"
-            name="Characters"/>
+            name="Characters"
+            hidden="false"/>
 
     </categoryEntries>
 
-    <forceTypes>
+    <forceEntries>
 
-        <forceType
-            id="ft-army"
-            name="Army">
+        <forceEntry
+            id="force-army"
+            name="Army"
+            hidden="false">
 
-            <categoryRoots>
+            <categoryLinks>
 
-                <categoryRoot
-                    id="cr-inf"
+                <categoryLink
+                    id="force-inf"
+                    name="Infantry"
                     targetId="cat-inf"
-                    name="Infantry"/>
+                    primary="false"
+                    hidden="false"
+                    type="category"/>
 
-                <categoryRoot
-                    id="cr-cav"
+                <categoryLink
+                    id="force-cav"
+                    name="Cavalry"
                     targetId="cat-cav"
-                    name="Cavalry"/>
+                    primary="false"
+                    hidden="false"
+                    type="category"/>
 
-                <categoryRoot
-                    id="cr-char"
+                <categoryLink
+                    id="force-char"
+                    name="Characters"
                     targetId="cat-char"
-                    name="Characters"/>
+                    primary="false"
+                    hidden="false"
+                    type="category"/>
 
-            </categoryRoots>
+            </categoryLinks>
 
-        </forceType>
+        </forceEntry>
 
-    </forceTypes>
+    </forceEntries>
 
 </gameSystem>
