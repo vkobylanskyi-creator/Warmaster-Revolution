@@ -1,103 +1,166 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="wmr-sys"
-            name="Warmaster Revolution"
-            revision="2"
-            battleScribeVersion="2.03"
-            xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem
+    id="wmr-sys"
+    name="Warmaster Revolution"
+    revision="1"
+    battleScribeVersion="2.03"
+    type="gameSystem"
+    xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
 
   <costTypes>
-    <costType id="points"
-              name="pts"
-              defaultCostLimit="0.0"/>
+    <costType
+        id="points"
+        name="pts"
+        defaultCostLimit="0.0"/>
   </costTypes>
 
   <profileTypes>
-    <profileType id="unit-profile"
-                 name="Unit Profile">
+    <profileType
+        id="unit-profile"
+        name="Unit Profile">
+
       <characteristicTypes>
-        <characteristicType id="char-att"
-                            name="Attacks"/>
-        <characteristicType id="char-hits"
-                            name="Hits"/>
-        <characteristicType id="char-arm"
-                            name="Armor"/>
-        <characteristicType id="char-size"
-                            name="Size"/>
+        <characteristicType
+            id="char-att"
+            name="Attacks"/>
+
+        <characteristicType
+            id="char-hits"
+            name="Hits"/>
+
+        <characteristicType
+            id="char-arm"
+            name="Armor"/>
+
+        <characteristicType
+            id="char-size"
+            name="Size"/>
       </characteristicTypes>
+
     </profileType>
   </profileTypes>
 
   <categoryEntries>
 
-    <categoryEntry id="cat-character"
-                   name="Characters"/>
+    <categoryEntry
+        id="cat-character"
+        name="Characters"
+        hidden="false"/>
 
-    <categoryEntry id="cat-inf"
-                   name="Infantry"/>
+    <categoryEntry
+        id="cat-inf"
+        name="Infantry"
+        hidden="false"/>
 
-    <categoryEntry id="cat-cav"
-                   name="Cavalry"/>
+    <categoryEntry
+        id="cat-cav"
+        name="Cavalry"
+        hidden="false"/>
 
-    <categoryEntry id="cat-chariot"
-                   name="Chariots"/>
+    <categoryEntry
+        id="cat-chariot"
+        name="Chariots"
+        hidden="false"/>
 
-    <categoryEntry id="cat-monster"
-                   name="Monsters"/>
+    <categoryEntry
+        id="cat-monster"
+        name="Monsters"
+        hidden="false"/>
 
-    <categoryEntry id="cat-flying"
-                   name="Flying"/>
+    <categoryEntry
+        id="cat-flying"
+        name="Flying"
+        hidden="false"/>
 
-    <categoryEntry id="cat-war-machine"
-                   name="War Machines"/>
+    <categoryEntry
+        id="cat-war-machine"
+        name="War Machines"
+        hidden="false"/>
 
-    <categoryEntry id="cat-artillery"
-                   name="Artillery"/>
+    <categoryEntry
+        id="cat-artillery"
+        name="Artillery"
+        hidden="false"/>
 
   </categoryEntries>
 
-  <forceTypes>
+  <forceEntries>
 
-    <forceType id="ft-army"
-               name="Army">
+    <forceEntry
+        id="force-army"
+        name="Army"
+        hidden="false">
 
-      <categoryRoots>
+      <categoryLinks>
 
-        <categoryRoot id="cr-character"
-                      targetId="cat-character"
-                      name="Characters"/>
+        <categoryLink
+            id="force-character"
+            name="Characters"
+            targetId="cat-character"
+            primary="false"
+            hidden="false"
+            type="category"/>
 
-        <categoryRoot id="cr-inf"
-                      targetId="cat-inf"
-                      name="Infantry"/>
+        <categoryLink
+            id="force-inf"
+            name="Infantry"
+            targetId="cat-inf"
+            primary="false"
+            hidden="false"
+            type="category"/>
 
-        <categoryRoot id="cr-cav"
-                      targetId="cat-cav"
-                      name="Cavalry"/>
+        <categoryLink
+            id="force-cav"
+            name="Cavalry"
+            targetId="cat-cav"
+            primary="false"
+            hidden="false"
+            type="category"/>
 
-        <categoryRoot id="cr-chariot"
-                      targetId="cat-chariot"
-                      name="Chariots"/>
+        <categoryLink
+            id="force-chariot"
+            name="Chariots"
+            targetId="cat-chariot"
+            primary="false"
+            hidden="false"
+            type="category"/>
 
-        <categoryRoot id="cr-monster"
-                      targetId="cat-monster"
-                      name="Monsters"/>
+        <categoryLink
+            id="force-monster"
+            name="Monsters"
+            targetId="cat-monster"
+            primary="false"
+            hidden="false"
+            type="category"/>
 
-        <categoryRoot id="cr-flying"
-                      targetId="cat-flying"
-                      name="Flying"/>
+        <categoryLink
+            id="force-flying"
+            name="Flying"
+            targetId="cat-flying"
+            primary="false"
+            hidden="false"
+            type="category"/>
 
-        <categoryRoot id="cr-war-machine"
-                      targetId="cat-war-machine"
-                      name="War Machines"/>
+        <categoryLink
+            id="force-war-machine"
+            name="War Machines"
+            targetId="cat-war-machine"
+            primary="false"
+            hidden="false"
+            type="category"/>
 
-        <categoryRoot id="cr-artillery"
-                      targetId="cat-artillery"
-                      name="Artillery"/>
+        <categoryLink
+            id="force-artillery"
+            name="Artillery"
+            targetId="cat-artillery"
+            primary="false"
+            hidden="false"
+            type="category"/>
 
-      </categoryRoots>
+      </categoryLinks>
 
-    </forceType>
+    </forceEntry>
 
-  </forceTypes>
+  </forceEntries>
 
 </gameSystem>
