@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="he-beta-cat" name="High Elves (Beta)" gameSystemId="warmaster-sys" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="unit-spearmen-beta" name="Spearmen (Beta)" type="unit">
+      <profiles>
+        <profile id="prof-spearmen" name="Spearmen (Beta)" profileTypeId="unit-profile">
+          <characteristics>
+            <characteristic typeId="char-att" name="Attacks">3/1</characteristic>
+            <characteristic typeId="char-hits" name="Hits">3</characteristic>
+            <characteristic typeId="char-arm" name="Armor">5+</characteristic>
+            <characteristic typeId="char-size" name="Size">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost typeId="points" name="pts" value="60.0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink id="link-inf" targetId="cat-inf" name="Infantry" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
