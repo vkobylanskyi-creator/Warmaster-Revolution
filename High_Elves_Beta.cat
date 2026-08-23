@@ -78,6 +78,18 @@
 
             </categoryLinks>
 
+<constraints>
+
+    <constraint
+        id="min-spearmen"
+        field="selections"
+        scope="roster"
+        value="0"
+        type="min"
+        percentValue="false"/>
+
+</constraints>
+
         </selectionEntry>
 
 
