@@ -1,27 +1,77 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="he-cat" name="High Elves" gameSystemId="wmr-sys" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+
+<catalogue id="he-beta-cat"
+           name="High Elves (Beta)"
+           gameSystemId="wmr-sys"
+           gameSystemRevision="2"
+           revision="2"
+           battleScribeVersion="2.03"
+           xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+
   <entryLinks>
-    <entryLink id="link-spearmen" name="Spearmen" hidden="false" targetId="unit-spearmen" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="link-cat-inf" targetId="cat-inf" name="Infantry" primary="true"/>
-      </categoryLinks>
-    </entryLink>
+
+    <entryLink id="link-spearmen"
+               name="Spearmen"
+               hidden="false"
+               targetId="unit-spearmen"
+               type="selectionEntry"/>
+
   </entryLinks>
-  <sharedSelectionEntries>
-    <selectionEntry id="unit-spearmen" name="Spearmen" hidden="false" type="unit">
+
+  <selectionEntries>
+
+    <selectionEntry id="unit-spearmen"
+                    name="Spearmen"
+                    hidden="false"
+                    type="unit">
+
       <profiles>
-        <profile id="prof-spearmen" name="Spearmen" hidden="false" typeId="unit-profile" typeName="Unit Profile">
+
+        <profile id="prof-spearmen"
+                 name="Spearmen"
+                 hidden="false"
+                 typeId="unit-profile"
+                 typeName="Unit Profile">
+
           <characteristics>
-            <characteristic typeId="char-att" name="Attacks">3/1</characteristic>
-            <characteristic typeId="char-hits" name="Hits">3</characteristic>
-            <characteristic typeId="char-arm" name="Armor">5+</characteristic>
-            <characteristic typeId="char-size" name="Size">3</characteristic>
+
+            <characteristic typeId="char-att"
+                            name="Attacks">3/1</characteristic>
+
+            <characteristic typeId="char-hits"
+                            name="Hits">3</characteristic>
+
+            <characteristic typeId="char-arm"
+                            name="Armor">5+</characteristic>
+
+            <characteristic typeId="char-size"
+                            name="Size">3</characteristic>
+
           </characteristics>
+
         </profile>
+
       </profiles>
+
       <costs>
-        <cost typeId="points" name="pts" value="60.0"/>
+
+        <cost typeId="points"
+              name="pts"
+              value="60.0"/>
+
       </costs>
+
+      <categoryLinks>
+
+        <categoryLink id="link-cat-inf"
+                      targetId="cat-inf"
+                      name="Infantry"
+                      primary="true"/>
+
+      </categoryLinks>
+
     </selectionEntry>
-  </sharedSelectionEntries>
+
+  </selectionEntries>
+
 </catalogue>
