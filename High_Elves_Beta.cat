@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+5<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <catalogue
     library="false"
@@ -89,6 +89,33 @@
         percentValue="false"/>
 
 </constraints>
+
+<modifiers>
+
+    <modifier
+        id="modifier-spearmen-small-battle"
+        type="set"
+        field="min-spearmen"
+        value="2">
+
+        <conditions>
+
+            <condition
+                field="selections"
+                scope="roster"
+                value="1"
+                percentValue="false"
+                shared="false"
+                includeChildSelections="true"
+                includeChildForces="false"
+                childId="battle-small"
+                type="atLeast"/>
+
+        </conditions>
+
+    </modifier>
+
+</modifiers>
 
         </selectionEntry>
 
