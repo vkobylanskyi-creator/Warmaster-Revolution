@@ -1,30 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="wmr-sys" name="Warmaster" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <costTypes>
-    <costType id="points" name="pts" defaultCostLimit="0.0"/>
-  </costTypes>
-  <profileTypes>
-    <profileType id="unit-profile" name="Unit Profile">
-      <characteristicTypes>
-        <characteristicType id="char-att" name="Attacks"/>
-        <characteristicType id="char-hits" name="Hits"/>
-        <characteristicType id="char-arm" name="Armor"/>
-        <characteristicType id="char-size" name="Size"/>
-      </characteristicTypes>
-    </profileType>
-  </profileTypes>
-  <categoryEntries>
-    <categoryEntry id="cat-inf" name="Infantry"/>
-    <categoryEntry id="cat-cav" name="Cavalry"/>
-    <categoryEntry id="cat-char" name="Characters"/>
-  </categoryEntries>
-  <forceTypes>
-    <forceType id="ft-army" name="Army">
-      <categoryRoots>
-        <categoryRoot id="cr-inf" targetId="cat-inf" name="Infantry"/>
-        <categoryRoot id="cr-cav" targetId="cat-cav" name="Cavalry"/>
-        <categoryRoot id="cr-char" targetId="cat-char" name="Characters"/>
-      </categoryRoots>
-    </forceType>
-  </forceTypes>
-</gameSystem>
+<catalogue id="he-beta-cat" name="High Elves (Beta)" gameSystemId="wmr-sys" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry id="unit-spearmen-beta" name="Spearmen (Beta)" type="unit">
+      <profiles>
+        <profile id="prof-spearmen" name="Spearmen (Beta)" profileTypeId="unit-profile">
+          <characteristics>
+            <characteristic typeId="char-att" name="Attacks">3/1</characteristic>
+            <characteristic typeId="char-hits" name="Hits">3</characteristic>
+            <characteristic typeId="char-arm" name="Armor">5+</characteristic>
+            <characteristic typeId="char-size" name="Size">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost typeId="points" name="pts" value="60.0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink id="link-inf" targetId="cat-inf" name="Infantry" primary="true"/>
+      </categoryLinks>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
