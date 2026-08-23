@@ -287,6 +287,15 @@
 
     <entryLinks>
 
+<entryLink
+    id="link-battle-size"
+    name="Battle Size"
+    hidden="false"
+    collective="false"
+    import="true"
+    type="selectionEntryGroup"
+    targetId="battle-size-group"/>
+
         <entryLink
             id="link-spearmen"
             name="Spearmen"
