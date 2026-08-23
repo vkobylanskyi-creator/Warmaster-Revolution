@@ -294,7 +294,35 @@
     collective="false"
     import="true"
     type="selectionEntryGroup"
-    targetId="battle-size-group"/>
+    targetId="battle-size-group">
+
+    <constraints>
+
+        <constraint
+            id="constraint-battle-size-required"
+            field="selections"
+            scope="parent"
+            value="1"
+            type="min"
+            percentValue="false"
+            shared="false"
+            includeChildSelections="false"
+            includeChildForces="false"/>
+
+        <constraint
+            id="constraint-battle-size-only-one"
+            field="selections"
+            scope="parent"
+            value="1"
+            type="max"
+            percentValue="false"
+            shared="false"
+            includeChildSelections="false"
+            includeChildForces="false"/>
+
+    </constraints>
+
+</entryLink>
 
         <entryLink
             id="link-spearmen"
