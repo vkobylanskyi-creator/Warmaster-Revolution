@@ -13,6 +13,123 @@
 
     <sharedSelectionEntries>
 
+<sharedSelectionEntryGroups>
+
+    <selectionEntryGroup
+        id="battle-size-group"
+        name="Battle Size"
+        hidden="false"
+        collective="false"
+        import="true">
+
+        <constraints>
+
+            <constraint
+                id="battle-size-min"
+                field="selections"
+                scope="parent"
+                value="1"
+                type="min"
+                percentValue="false"/>
+
+            <constraint
+                id="battle-size-max"
+                field="selections"
+                scope="parent"
+                value="1"
+                type="max"
+                percentValue="false"/>
+
+        </constraints>
+
+        <selectionEntries>
+
+            <selectionEntry
+                id="battle-small"
+                name="1000 pts — Small Battle"
+                hidden="false"
+                type="upgrade">
+
+                <costs>
+                    <cost
+                        id="cost-battle-small"
+                        typeId="points"
+                        name="pts"
+                        value="0.0"/>
+                </costs>
+
+            </selectionEntry>
+
+            <selectionEntry
+                id="battle-standard"
+                name="2000 pts — Standard Battle"
+                hidden="false"
+                type="upgrade">
+
+                <costs>
+                    <cost
+                        id="cost-battle-standard"
+                        typeId="points"
+                        name="pts"
+                        value="0.0"/>
+                </costs>
+
+            </selectionEntry>
+
+            <selectionEntry
+                id="battle-large"
+                name="3000 pts — Large Battle"
+                hidden="false"
+                type="upgrade">
+
+                <costs>
+                    <cost
+                        id="cost-battle-large"
+                        typeId="points"
+                        name="pts"
+                        value="0.0"/>
+                </costs>
+
+            </selectionEntry>
+
+            <selectionEntry
+                id="battle-grand"
+                name="4000 pts — Grand Battle"
+                hidden="false"
+                type="upgrade">
+
+                <costs>
+                    <cost
+                        id="cost-battle-grand"
+                        typeId="points"
+                        name="pts"
+                        value="0.0"/>
+                </costs>
+
+            </selectionEntry>
+
+            <selectionEntry
+                id="battle-massive"
+                name="5000 pts — Massive Battle"
+                hidden="false"
+                type="upgrade">
+
+                <costs>
+                    <cost
+                        id="cost-battle-massive"
+                        typeId="points"
+                        name="pts"
+                        value="0.0"/>
+                </costs>
+
+            </selectionEntry>
+
+        </selectionEntries>
+
+    </selectionEntryGroup>
+
+</sharedSelectionEntryGroups>
+
         <!-- ========================= -->
         <!-- SPEARMEN                  -->
         <!-- ========================= -->
@@ -172,6 +289,14 @@
     <!-- ========================= -->
     <!-- ENTRY LINKS               -->
     <!-- ========================= -->
+
+<entryLink
+    id="link-battle-size"
+    name="Battle Size"
+    hidden="false"
+    type="selectionEntryGroup"
+    targetId="battle-size-group"
+    import="true"/>
 
     <entryLinks>
 
