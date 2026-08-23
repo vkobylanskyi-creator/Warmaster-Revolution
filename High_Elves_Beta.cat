@@ -78,20 +78,7 @@
 
             </categoryLinks>
 
-<constraints>
-
-    <constraint
-        id="min-spearmen"
-        field="selections"
-        scope="roster"
-        value="2"
-        type="min"
-        percentValue="false"/>
-
-</constraints>
-
         </selectionEntry>
-
 
         <selectionEntry
             id="unit-archers"
@@ -167,18 +154,7 @@
                     hidden="false"/>
 
             </categoryLinks>
-<constraints>
-
-    <constraint
-        id="min-archers"
-        field="selections"
-        scope="roster"
-        value="1"
-        type="min"
-        percentValue="false"/>
-
-</constraints>
-
+>
         </selectionEntry>
 
     </sharedSelectionEntries>
