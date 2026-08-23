@@ -4,9 +4,9 @@
     <entryLink id="link-spearmen" name="Spearmen (Beta)" hidden="false" targetId="unit-spearmen-beta" type="selectionEntry"/>
   </entryLinks>
   <selectionEntries>
-    <selectionEntry id="unit-spearmen-beta" name="Spearmen (Beta)" type="unit">
+    <selectionEntry id="unit-spearmen-beta" name="Spearmen (Beta)" hidden="false" type="unit">
       <profiles>
-        <profile id="prof-spearmen" name="Spearmen (Beta)" profileTypeId="unit-profile">
+        <profile id="prof-spearmen" name="Spearmen (Beta)" hidden="false" typeId="unit-profile" typeName="Unit Profile">
           <characteristics>
             <characteristic typeId="char-att" name="Attacks">3/1</characteristic>
             <characteristic typeId="char-hits" name="Hits">3</characteristic>
@@ -19,7 +19,7 @@
         <cost typeId="points" name="pts" value="60.0"/>
       </costs>
       <categoryLinks>
-        <categoryLink id="link-inf" targetId="cat-inf" name="Infantry" primary="true"/>
+        <categoryLink id="link-cat-inf" targetId="cat-inf" name="Infantry" primary="true"/>
       </categoryLinks>
     </selectionEntry>
   </selectionEntries>
