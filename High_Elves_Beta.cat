@@ -103,7 +103,7 @@
                     typeId="char-att"
                     name="Attacks">3/1</characteristic>
 
-characteristic
+<characteristic
     id="char-value-range-archers"
     typeId="char-range"
     name="Range">30cm</characteristic>
