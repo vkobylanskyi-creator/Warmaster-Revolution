@@ -71,6 +71,11 @@
             name="Characters"
             hidden="false"/>
 
+<categoryEntry
+    id="cat-config"
+    name="Configuration"
+    hidden="false"/>
+
     </categoryEntries>
 
     <forceEntries>
