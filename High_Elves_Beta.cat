@@ -34,7 +34,7 @@
             <characteristic
                 id="char-value-att"
                 typeId="char-att"
-                name="Attacks">3/1</characteristic>
+                name="Attacks">3</characteristic>
 
             <characteristic
                 id="char-value-hits"
@@ -80,6 +80,73 @@
 
     </selectionEntry>
 
+<selectionEntry
+    id="unit-archers"
+    name="Archers"
+    hidden="false"
+    type="unit"
+    import="true">
+
+    <profiles>
+
+        <profile
+            id="prof-archers"
+            name="Archers"
+            hidden="false"
+            typeId="unit-profile"
+            typeName="Unit Profile">
+
+            <characteristics>
+
+                <characteristic
+                    id="char-value-att-archers"
+                    typeId="char-att"
+                    name="Attacks">3/1</characteristic>
+
+                <characteristic
+                    id="char-value-hits-archers"
+                    typeId="char-hits"
+                    name="Hits">3</characteristic>
+
+                <characteristic
+                    id="char-value-arm-archers"
+                    typeId="char-arm"
+                    name="Armor">6+</characteristic>
+
+                <characteristic
+                    id="char-value-size-archers"
+                    typeId="char-size"
+                    name="Size">3</characteristic>
+
+            </characteristics>
+
+        </profile>
+
+    </profiles>
+
+    <costs>
+
+        <cost
+            id="cost-archers"
+            typeId="points"
+            name="pts"
+            value="75.0"/>
+
+    </costs>
+
+    <categoryLinks>
+
+        <categoryLink
+            id="category-archers"
+            name="Infantry"
+            targetId="cat-inf"
+            primary="true"
+            hidden="false"/>
+
+    </categoryLinks>
+
+</selectionEntry>
+
   </sharedSelectionEntries>
 
   <entryLinks>
@@ -91,6 +158,14 @@
         type="selectionEntry"
         targetId="unit-spearmen"
         import="true"/>
+
+<entryLink
+    id="link-archers"
+    name="Archers"
+    hidden="false"
+    type="selectionEntry"
+    targetId="unit-archers"
+    import="true"/>
 
   </entryLinks>
 
