@@ -159,6 +159,131 @@
 
     </sharedSelectionEntries>
 
+<sharedSelectionEntryGroups>
+
+    <selectionEntryGroup
+        id="battle-size-group"
+        name="Battle Size"
+        hidden="false"
+        collective="false"
+        import="true">
+
+        <constraints>
+
+            <constraint
+                id="battle-size-min"
+                field="selections"
+                scope="parent"
+                value="1"
+                type="min"
+                percentValue="false"/>
+
+            <constraint
+                id="battle-size-max"
+                field="selections"
+                scope="parent"
+                value="1"
+                type="max"
+                percentValue="false"/>
+
+        </constraints>
+
+        <selectionEntries>
+
+            <selectionEntry
+                id="battle-small"
+                name="Small Battle — 1000 pts"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="cost-battle-small"
+                        typeId="points"
+                        name="pts"
+                        value="0.0"/>
+                </costs>
+
+            </selectionEntry>
+
+
+            <selectionEntry
+                id="battle-standard"
+                name="Standard Battle — 2000 pts"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="cost-battle-standard"
+                        typeId="points"
+                        name="pts"
+                        value="0.0"/>
+                </costs>
+
+            </selectionEntry>
+
+
+            <selectionEntry
+                id="battle-large"
+                name="Large Battle — 3000 pts"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="cost-battle-large"
+                        typeId="points"
+                        name="pts"
+                        value="0.0"/>
+                </costs>
+
+            </selectionEntry>
+
+
+            <selectionEntry
+                id="battle-grand"
+                name="Grand Battle — 4000 pts"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="cost-battle-grand"
+                        typeId="points"
+                        name="pts"
+                        value="0.0"/>
+                </costs>
+
+            </selectionEntry>
+
+
+            <selectionEntry
+                id="battle-massive"
+                name="Massive Battle — 5000 pts"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="cost-battle-massive"
+                        typeId="points"
+                        name="pts"
+                        value="0.0"/>
+                </costs>
+
+            </selectionEntry>
+
+        </selectionEntries>
+
+    </selectionEntryGroup>
+
+</sharedSelectionEntryGroups>
 
     <entryLinks>
 
