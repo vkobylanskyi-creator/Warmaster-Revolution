@@ -15,15 +15,11 @@
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="cat-inf" name="Infantry"/>
-    <categoryEntry id="cat-cav" name="Cavalry"/>
-    <categoryEntry id="cat-char" name="Characters"/>
   </categoryEntries>
   <forceTypes>
     <forceType id="ft-army" name="Army">
       <categoryRoots>
         <categoryRoot id="cr-inf" targetId="cat-inf" name="Infantry"/>
-        <categoryRoot id="cr-cav" targetId="cat-cav" name="Cavalry"/>
-        <categoryRoot id="cr-char" targetId="cat-char" name="Characters"/>
       </categoryRoots>
     </forceType>
   </forceTypes>
