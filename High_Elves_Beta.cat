@@ -11,172 +11,174 @@
     type="catalogue"
     xmlns="http://www.battlescribe.net/schema/catalogueSchema">
 
-  <sharedSelectionEntries>
+    <sharedSelectionEntries>
 
-    <selectionEntry
-        id="unit-spearmen"
-        name="Spearmen"
-        hidden="false"
-        type="unit"
-        import="true">
-
-      <profiles>
-
-        <profile
-            id="prof-spearmen"
+        <selectionEntry
+            id="unit-spearmen"
             name="Spearmen"
             hidden="false"
-            typeId="unit-profile"
-            typeName="Unit Profile">
+            type="unit"
+            import="true">
 
-          <characteristics>
+            <profiles>
 
-            <characteristic
-                id="char-value-att"
-                typeId="char-att"
-                name="Attacks">3</characteristic>
+                <profile
+                    id="prof-spearmen"
+                    name="Spearmen"
+                    hidden="false"
+                    typeId="unit-profile"
+                    typeName="Unit Profile">
 
-            <characteristic
-                id="char-value-hits"
-                typeId="char-hits"
-                name="Hits">3</characteristic>
+                    <characteristics>
 
-            <characteristic
-                id="char-value-arm"
-                typeId="char-arm"
-                name="Armor">5+</characteristic>
+                        <characteristic
+                            id="char-value-att-spearmen"
+                            typeId="char-att"
+                            name="Attacks">3</characteristic>
 
-            <characteristic
-                id="char-value-size"
-                typeId="char-size"
-                name="Size">3</characteristic>
+                        <characteristic
+                            id="char-value-hits-spearmen"
+                            typeId="char-hits"
+                            name="Hits">3</characteristic>
 
-          </characteristics>
+                        <characteristic
+                            id="char-value-arm-spearmen"
+                            typeId="char-arm"
+                            name="Armor">5+</characteristic>
 
-        </profile>
+                        <characteristic
+                            id="char-value-size-spearmen"
+                            typeId="char-size"
+                            name="Size">3</characteristic>
 
-      </profiles>
+                    </characteristics>
 
-      <costs>
+                </profile>
 
-        <cost
-            id="cost-spearmen"
-            typeId="points"
-            name="pts"
-            value="60.0"/>
+            </profiles>
 
-      </costs>
+            <costs>
 
-      <categoryLinks>
+                <cost
+                    id="cost-spearmen"
+                    typeId="points"
+                    name="pts"
+                    value="60.0"/>
 
-        <categoryLink
-            id="category-spearmen"
-            name="Infantry"
-            targetId="cat-inf"
-            primary="true"
-            hidden="false"/>
+            </costs>
 
-      </categoryLinks>
+            <categoryLinks>
 
-    </selectionEntry>
+                <categoryLink
+                    id="category-spearmen"
+                    name="Infantry"
+                    targetId="cat-inf"
+                    primary="true"
+                    hidden="false"/>
 
-<selectionEntry
-    id="unit-archers"
-    name="Archers"
-    hidden="false"
-    type="unit"
-    import="true">
+            </categoryLinks>
 
-    <profiles>
+        </selectionEntry>
 
-        <profile
-            id="prof-archers"
+
+        <selectionEntry
+            id="unit-archers"
             name="Archers"
             hidden="false"
-            typeId="unit-profile"
-            typeName="Unit Profile">
+            type="unit"
+            import="true">
 
-            <characteristics>
+            <profiles>
 
-                <characteristic
-                    id="char-value-att-archers"
-                    typeId="char-att"
-                    name="Attacks">3/1</characteristic>
+                <profile
+                    id="prof-archers"
+                    name="Archers"
+                    hidden="false"
+                    typeId="unit-profile"
+                    typeName="Unit Profile">
 
-<characteristic
-    id="char-value-range-archers"
-    typeId="char-range"
-    name="Range">30cm</characteristic>
+                    <characteristics>
 
-                <characteristic
-                    id="char-value-hits-archers"
-                    typeId="char-hits"
-                    name="Hits">3</characteristic>
+                        <characteristic
+                            id="char-value-att-archers"
+                            typeId="char-att"
+                            name="Attacks">3/1</characteristic>
 
-                <characteristic
-                    id="char-value-arm-archers"
-                    typeId="char-arm"
-                    name="Armor">6+</characteristic>
+                        <characteristic
+                            id="char-value-range-archers"
+                            typeId="char-range"
+                            name="Range">30cm</characteristic>
 
-                <characteristic
-                    id="char-value-size-archers"
-                    typeId="char-size"
-                    name="Size">3</characteristic>
+                        <characteristic
+                            id="char-value-hits-archers"
+                            typeId="char-hits"
+                            name="Hits">3</characteristic>
 
-<characteristic
-    id="char-value-special-archers"
-    typeId="char-special"
-    name="Special Rules">Archers. High Elf archers add +1 to their dice rolls when making Shooting attacks. They will therefore score a hit against targets in the open on a 3 or more, against targets that are defended on a 4 or more, and against fortified targets on a 5 or more.</characteristic
+                        <characteristic
+                            id="char-value-arm-archers"
+                            typeId="char-arm"
+                            name="Armor">6+</characteristic>
 
-            </characteristics>
+                        <characteristic
+                            id="char-value-size-archers"
+                            typeId="char-size"
+                            name="Size">3</characteristic>
 
-        </profile>
+                        <characteristic
+                            id="char-value-special-archers"
+                            typeId="char-special"
+                            name="Special Rules">Archers. High Elf archers add +1 to their dice rolls when making Shooting attacks. They will therefore score a hit against targets in the open on a 3 or more, against targets that are defended on a 4 or more, and against fortified targets on a 5 or more.</characteristic>
 
-    </profiles>
+                    </characteristics>
 
-    <costs>
+                </profile>
 
-        <cost
-            id="cost-archers"
-            typeId="points"
-            name="pts"
-            value="75.0"/>
+            </profiles>
 
-    </costs>
+            <costs>
 
-    <categoryLinks>
+                <cost
+                    id="cost-archers"
+                    typeId="points"
+                    name="pts"
+                    value="75.0"/>
 
-        <categoryLink
-            id="category-archers"
-            name="Infantry"
-            targetId="cat-inf"
-            primary="true"
-            hidden="false"/>
+            </costs>
 
-    </categoryLinks>
+            <categoryLinks>
 
-</selectionEntry>
+                <categoryLink
+                    id="category-archers"
+                    name="Infantry"
+                    targetId="cat-inf"
+                    primary="true"
+                    hidden="false"/>
 
-  </sharedSelectionEntries>
+            </categoryLinks>
 
-  <entryLinks>
+        </selectionEntry>
 
-    <entryLink
-        id="link-spearmen"
-        name="Spearmen"
-        hidden="false"
-        type="selectionEntry"
-        targetId="unit-spearmen"
-        import="true"/>
+    </sharedSelectionEntries>
 
-<entryLink
-    id="link-archers"
-    name="Archers"
-    hidden="false"
-    type="selectionEntry"
-    targetId="unit-archers"
-    import="true"/>
 
-  </entryLinks>
+    <entryLinks>
+
+        <entryLink
+            id="link-spearmen"
+            name="Spearmen"
+            hidden="false"
+            type="selectionEntry"
+            targetId="unit-spearmen"
+            import="true"/>
+
+        <entryLink
+            id="link-archers"
+            name="Archers"
+            hidden="false"
+            type="selectionEntry"
+            targetId="unit-archers"
+            import="true"/>
+
+    </entryLinks>
 
 </catalogue>
