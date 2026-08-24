@@ -227,7 +227,7 @@
 
                             <characteristic
                                 id="char-value-arm-archers"
-                                typeIdtypeId="char-arm"
+                                typeId="char-arm"
                                 name="Armor">6+
                             </characteristic>
 
