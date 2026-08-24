@@ -545,7 +545,7 @@
             name="Reavers"
             hidden="false"
             type="selectionEntry"
-            targetId="unit-silver"
+            targetId="unit-reavers"
             import="true"/>
 
     </entryLinks>
