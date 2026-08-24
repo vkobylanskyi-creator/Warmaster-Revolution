@@ -154,16 +154,6 @@
                         hidden="false"/>
                 </categoryLinks>
                 
-                <constraints>
-                    <constraint
-                        id="min-spearmen"
-                        field="selections"
-                        scope="roster"
-                        value="0"
-                        type="min"
-                        percentValue="false"/>
-                </constraints>
-                
                 <modifiers>
                     <modifier
                         id="modifier-spearmen-small-battle"
