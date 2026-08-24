@@ -36,6 +36,10 @@
                     name="Armor"/>
 
                 <characteristicType
+                    id="char-com"
+                    name="Command"/>
+
+                <characteristicType
                     id="char-size"
                     name="Size"/>
 
