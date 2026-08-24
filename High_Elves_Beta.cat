@@ -37,24 +37,15 @@
                     name="Attacks">+2</characteristic>
 
                 <characteristic
-                    id="char-value-hits-general"
-                    typeId="char-hits"
-                    name="Hits">–</characteristic>
+                    id="char-value-com-general"
+                    typeId="char-com"
+                    name="Command">10</characteristic>
 
-                <characteristic
-                    id="char-value-arm-general"
-                    typeId="char-arm"
-                    name="Armor">–</characteristic>
 
                 <characteristic
                     id="char-value-size-general"
                     typeId="char-size"
-                    name="Size">1</characteristic>
-
-                <characteristic
-                    id="char-value-special-general"
-                    typeId="char-special"
-                    name="Special Rules">Command: 10</characteristic>
+                    name="Size">1</characteristic
 
             </characteristics>
 
