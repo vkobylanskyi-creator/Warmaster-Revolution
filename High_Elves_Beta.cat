@@ -1,4 +1,4 @@
-\<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue
     library="false"
     id="he-beta-cat"
@@ -153,28 +153,6 @@
                         primary="true"
                         hidden="false"/>
                 </categoryLinks>
-                
-                <modifiers>
-                    <modifier
-                        id="modifier-spearmen-small-battle"
-                        type="set"
-                        field="min-spearmen"
-                        value="2">
-                    
-                        <conditions>
-                            <condition
-                                field="selections"
-                                scope="roster"
-                                value="1"
-                                percentValue="false"
-                                shared="false"
-                                includeChildSelections="true"
-                                includeChildForces="false"
-                                childId="battle-small"
-                                type="atLeast"/>
-                        </conditions>
-                    </modifier>
-                </modifiers>
         </selectionEntry>
 
         <!-- ========================= -->
@@ -243,16 +221,16 @@
                         name="pts"
                         value="75.0"/>
                     </costs>
-            <categoryLinks>
-                <categoryLink
-                    id="category-archers"
-                    name="Infantry"
-                    targetId="cat-inf"
-                    primary="true"
-                    hidden="false"/>
+                
+                <categoryLinks>
+                    <categoryLink
+                        id="category-archers"
+                        name="Infantry"
+                        targetId="cat-inf"
+                        primary="true"
+                        hidden="false"/>
                 </categoryLinks>
             </selectionEntry>
-        </sharedSelectionEntries>
 
         <!-- ========================= -->
         <!--    SILVER HELMS           -->
@@ -288,7 +266,7 @@
 
                             <characteristic
                                 id="char-value-arm-silver"
-                                typeIdtypeId="char-arm"
+                                typeId="char-arm"
                                 name="Armor">4+
                             </characteristic>
 
@@ -303,19 +281,19 @@
 
                 <costs>
                     <cost
-                        id="cost-archers"
+                        id="cost-silver"
                         typeId="points"
                         name="pts"
                         value="110.0"/>
-                    </costs>
+                </costs>
             
-            <categoryLinks>
-                <categoryLink
-                    id="category-silver"
-                    name="Cavalry"
-                    targetId="cat-cav"
-                    primary="true"
-                    hidden="false"/>
+                <categoryLinks>
+                    <categoryLink
+                        id="category-silver"
+                        name="Cavalry"
+                        targetId="cat-cav"
+                        primary="true"
+                        hidden="false"/>
                 </categoryLinks>
             </selectionEntry>
         </sharedSelectionEntries>
@@ -355,49 +333,22 @@
 
             <selectionEntries>
 
-                <selectionEntry
-                    id="battle-small"
-                    name="1000 pts — Small Battle"
-                    hidden="false"
-                    type="upgrade"
-                    import="true">
+<selectionEntry
+    id="battle-small"
+    name="1000 pts — Small Battle"
+    hidden="false"
+    type="upgrade"
+    import="true">
 
-                    <costs>
-                        <cost
-                            id="cost-battle-small"
-                            typeId="points"
-                            name="pts"
-                            value="0.0"/>
-                    </costs>
+    <costs>
+        <cost
+            id="cost-battle-small"
+            typeId="points"
+            name="pts"
+            value="0.0"/>
+    </costs>
 
-<modifiers>
-
-    <modifier
-        id="modifier-small-spearmen-min"
-        type="set"
-        field="min"
-        value="2">
-
-        <conditions>
-
-            <condition
-                field="selections"
-                scope="roster"
-                value="1"
-                percentValue="false"
-                shared="false"
-                includeChildSelections="true"
-                includeChildForces="false"
-                childId="battle-small"
-                type="instanceOf"/>
-
-        </conditions>
-
-    </modifier>
-
-</modifiers>
-
-                </selectionEntry>
+</selectionEntry>
 
                 <selectionEntry
                     id="battle-standard"
