@@ -775,5 +775,21 @@
             targetId="unit-chariots"
             import="true"/>
 
+        <entryLink
+            id="link-eagles"
+            name="Giant Eagles"
+            hidden="false"
+            type="selectionEntry"
+            targetId="unit-eagles"
+            import="true"/>
+
+        <entryLink
+            id="link-rider"
+            name="Dragon Rider"
+            hidden="false"
+            type="selectionEntry"
+            targetId="unit-rider"
+            import="true"/>
+
     </entryLinks>
 </catalogue>
