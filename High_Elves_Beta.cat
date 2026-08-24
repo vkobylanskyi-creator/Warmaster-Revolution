@@ -205,6 +205,12 @@
                             typeId="char-size"
                             name="Size">1
                         </characteristic>
+
+                        <characteristic
+                            id="char-value-special-eagles"
+                            typeId="char-special"
+                            name="Special Rules">Wizard. High Elf Mages are especially powerful wizards and to represent this can re-roll a failed spell on any dice result except a 1. If a spell is failed because a 1 is rolled then no re-roll is permitted.
+                        </characteristic>
                 
                     </characteristics>
                 </profile>
@@ -970,6 +976,24 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
             import="true"
             type="selectionEntry"
             targetId="unit-general"/>
+
+        <entryLink
+            id="link-hero"
+            name="Hero"
+            hidden="false"
+            collective="false"
+            import="true"
+            type="selectionEntry"
+            targetId="unit-hero"/>
+
+        <entryLink
+            id="link-mage"
+            name="Mage"
+            hidden="false"
+            collective="false"
+            import="true"
+            type="selectionEntry"
+            targetId="unit-mage"/>
 
         <entryLink
             id="link-spearmen"
