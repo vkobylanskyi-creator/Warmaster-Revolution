@@ -73,6 +73,16 @@
             name="Chariot"
             hidden="false"/>
 
+        <categoryEntry
+            id="cat-mon"
+            name="Monster"
+            hidden="false"/>
+
+        <categoryEntry
+            id="cat-art"
+            name="Artilery"
+            hidden="false"/>
+
     </categoryEntries>
 
     <forceEntries>
