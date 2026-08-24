@@ -296,6 +296,77 @@
                         hidden="false"/>
                 </categoryLinks>
             </selectionEntry>
+
+        <!-- ========================= -->
+        <!--    REAVERS                -->
+        <!-- ========================= -->
+
+            <selectionEntry
+                id="unit-reavers"
+                name="Reavers"
+                hidden="false"
+                type="unit"
+                import="true">
+
+                <profiles>
+                    <profile
+                        id="prof-reavers"
+                        name="Reavers"
+                        hidden="false"
+                        typeId="unit-profile"
+                        typeName="Unit Profile">
+    
+                        <characteristics>
+                            <characteristic
+                                id="char-value-att-reavers"
+                                typeId="char-att"
+                                name="Attacks">3/1
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-range-reavers"
+                                typeId="char-range"
+                                name="Range">30cm
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-hits-reavers"
+                                typeId="char-hits"
+                                name="Hits">3
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-arm-reavers"
+                                typeId="char-arm"
+                                name="Armor">6+
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-size-reavers"
+                                typeId="char-size"
+                                name="Size">3
+                            </characteristic>
+                        </characteristics>
+                    </profile>
+                </profiles>
+
+                <costs>
+                    <cost
+                        id="cost-silver"
+                        typeId="points"
+                        name="pts"
+                        value="110.0"/>
+                </costs>
+            
+                <categoryLinks>
+                    <categoryLink
+                        id="category-silver"
+                        name="Cavalry"
+                        targetId="cat-cav"
+                        primary="true"
+                        hidden="false"/>
+                </categoryLinks>
+            </selectionEntry>
         </sharedSelectionEntries>
 
     <!-- ========================= -->
