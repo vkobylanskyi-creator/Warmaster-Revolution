@@ -45,7 +45,7 @@
                 <characteristic
                     id="char-value-size-general"
                     typeId="char-size"
-                    name="Size">1</characteristic
+                    name="Size">1</characteristic>
 
             </characteristics>
 
