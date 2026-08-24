@@ -91,6 +91,162 @@
         </selectionEntry>
 
         <!-- ========================= -->
+        <!--    HERO                   -->
+        <!-- ========================= -->
+
+        <selectionEntry
+            id="unit-hero"
+            name="Hero"
+            hidden="false"
+            type="unit"
+            import="true">
+
+            <profiles>
+                <profile
+                    id="prof-hero"
+                    name="Hero"
+                    hidden="false"
+                    typeId="unit-profile"
+                    typeName="Unit Profile">
+
+                    <characteristics>
+                        <characteristic
+                            id="char-value-att-hero"
+                            typeId="char-att"
+                            name="Attacks">+1
+                        </characteristic>
+
+                        <characteristic
+                            id="char-value-com-hero"
+                            typeId="char-com"
+                            name="Command">8
+                        </characteristic>
+
+                        <characteristic
+                            id="char-value-size-hero"
+                            typeId="char-size"
+                            name="Size">1
+                        </characteristic>
+                
+                    </characteristics>
+                </profile>
+            </profiles>
+
+            <costs>
+                <cost
+                    id="cost-hero"
+                    typeId="points"
+                    name="pts"
+                    value="80.0"/>
+            </costs>
+
+            <categoryLinks>
+                <categoryLink
+                    id="category-hero"
+                    name="Characters"
+                    targetId="cat-char"
+                    primary="true"
+                    hidden="false"/>
+            </categoryLinks>
+
+            <constraints>
+                <constraint
+                    id="min-hero"
+                    field="selections"
+                    scope="roster"
+                    value="0"
+                    type="min"
+                    percentValue="false"/>
+
+                <constraint
+                    id="max-hero"
+                    field="selections"
+                    scope="roster"
+                    value="1"
+                    type="max"
+                    percentValue="false"/>
+            </constraints>
+        </selectionEntry>
+
+        <!-- ========================= -->
+        <!--    MAGE                   -->
+        <!-- ========================= -->
+
+        <selectionEntry
+            id="unit-mage"
+            name="Mage"
+            hidden="false"
+            type="unit"
+            import="true">
+
+            <profiles>
+                <profile
+                    id="prof-mage"
+                    name="Mage"
+                    hidden="false"
+                    typeId="unit-profile"
+                    typeName="Unit Profile">
+
+                    <characteristics>
+                        <characteristic
+                            id="char-value-att-mage"
+                            typeId="char-att"
+                            name="Attacks">+0
+                        </characteristic>
+
+                        <characteristic
+                            id="char-value-com-mage"
+                            typeId="char-com"
+                            name="Command">8
+                        </characteristic>
+
+                        <characteristic
+                            id="char-value-size-mage"
+                            typeId="char-size"
+                            name="Size">1
+                        </characteristic>
+                
+                    </characteristics>
+                </profile>
+            </profiles>
+
+            <costs>
+                <cost
+                    id="cost-hero"
+                    typeId="points"
+                    name="pts"
+                    value="90.0"/>
+            </costs>
+
+            <categoryLinks>
+                <categoryLink
+                    id="category-mage"
+                    name="Characters"
+                    targetId="cat-char"
+                    primary="true"
+                    hidden="false"/>
+            </categoryLinks>
+
+            <constraints>
+                <constraint
+                    id="min-mage"
+                    field="selections"
+                    scope="roster"
+                    value="0"
+                    type="min"
+                    percentValue="false"/>
+
+                <constraint
+                    id="max-mage"
+                    field="selections"
+                    scope="roster"
+                    value="1"
+                    type="max"
+                    percentValue="false"/>
+            </constraints>
+        </selectionEntry>
+
+        <!-- ========================= -->
         <!--    SPEARMEN               -->
         <!-- ========================= -->
 
@@ -558,7 +714,7 @@
                                 id="char-value-special-rider"
                                 typeId="char-special"
                                 name="Special Rules">
-<p><b>Dragons.</b> Dragons can fly. Dragon Rider units and any other units that include a Dragon-riding character cause terror in their enemies.</p>
+Dragons. Dragons can fly. Dragon Rider units and any other units that include a Dragon-riding character cause terror in their enemies.
 
 Because Dragon Riders have a great many hits (6) which are difficult to inflict even during a lengthy combat engagement, we must consider the possibility of hurting the Dragon and reducing its effectiveness in subsequent turns. Therefore, if a Dragon Rider has accumulated 4-5 hits by the end of the Shooting phase or Combat phase and is no longer engaged in combat it is deemed to have been badly hurt. Once a Dragon has been badly hurt all accumulated hits are discounted and its maximum hits value and Attacks are halved for the rest of the battle (to 3 Hits and 3/2 Attacks).
 
