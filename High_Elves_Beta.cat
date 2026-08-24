@@ -352,15 +352,15 @@
 
                 <costs>
                     <cost
-                        id="cost-silver"
+                        id="cost-reaver"
                         typeId="points"
                         name="pts"
-                        value="110.0"/>
+                        value="90.0"/>
                 </costs>
             
                 <categoryLinks>
                     <categoryLink
-                        id="category-silver"
+                        id="category-reaver"
                         name="Cavalry"
                         targetId="cat-cav"
                         primary="true"
@@ -535,6 +535,14 @@
         <entryLink
             id="link-silver"
             name="Silver Helms"
+            hidden="false"
+            type="selectionEntry"
+            targetId="unit-silver"
+            import="true"/>
+
+        <entryLink
+            id="link-reavers"
+            name="Reavers"
             hidden="false"
             type="selectionEntry"
             targetId="unit-silver"
