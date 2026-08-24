@@ -1,5 +1,4 @@
-5<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue
     library="false"
     id="he-beta-cat"
@@ -12,89 +11,88 @@
     xmlns="http://www.battlescribe.net/schema/catalogueSchema">
 
     <sharedSelectionEntries>
+        <!-- ========================= -->
+        <!-- PROFILES                  -->
+        <!--    GENERAL                -->
+        <!-- ========================= -->
 
-<selectionEntry
-    id="unit-general"
-    name="General"
-    hidden="false"
-    type="unit"
-    import="true">
-
-    <profiles>
-
-        <profile
-            id="prof-general"
+        <selectionEntry
+            id="unit-general"
             name="General"
             hidden="false"
-            typeId="unit-profile"
-            typeName="Unit Profile">
+            type="unit"
+            import="true">
 
-            <characteristics>
+            <profiles>
+                <profile
+                    id="prof-general"
+                    name="General"
+                    hidden="false"
+                    typeId="unit-profile"
+                    typeName="Unit Profile">
 
-                <characteristic
-                    id="char-value-att-general"
-                    typeId="char-att"
-                    name="Attacks">+2</characteristic>
+                    <characteristics>
+                        <characteristic
+                            id="char-value-att-general"
+                            typeId="char-att"
+                            name="Attacks">+2
+                        </characteristic>
 
-                <characteristic
-                    id="char-value-com-general"
-                    typeId="char-com"
-                    name="Command">10</characteristic>
+                        <characteristic
+                            id="char-value-com-general"
+                            typeId="char-com"
+                            name="Command">10
+                        </characteristic>
 
+                        <characteristic
+                            id="char-value-size-general"
+                            typeId="char-size"
+                            name="Size">1
+                        </characteristic>
+                
+                    </characteristics>
+                </profile>
+            </profiles>
 
-                <characteristic
-                    id="char-value-size-general"
-                    typeId="char-size"
-                    name="Size">1</characteristic>
+            <costs>
+                <cost
+                    id="cost-general"
+                    typeId="points"
+                    name="pts"
+                    value="180.0"/>
+            </costs>
 
-            </characteristics>
+            <categoryLinks>
+                <categoryLink
+                    id="category-general"
+                    name="Characters"
+                    targetId="cat-char"
+                    primary="true"
+                    hidden="false"/>
+            </categoryLinks>
 
-        </profile>
+            <constraints>
+                <constraint
+                    id="min-general"
+                    field="selections"
+                    scope="roster"
+                    value="1"
+                    type="min"
+                    percentValue="false"/>
 
-    </profiles>
+                <constraint
+                    id="max-general"
+                    field="selections"
+                    scope="roster"
+                    value="1"
+                    type="max"
+                    percentValue="false"/>
+            </constraints>
+        </selectionEntry>
 
-    <costs>
-
-        <cost
-            id="cost-general"
-            typeId="points"
-            name="pts"
-            value="180.0"/>
-
-    </costs>
-
-    <categoryLinks>
-
-        <categoryLink
-            id="category-general"
-            name="Characters"
-            targetId="cat-char"
-            primary="true"
-            hidden="false"/>
-
-    </categoryLinks>
-
-    <constraints>
-
-        <constraint
-            id="min-general"
-            field="selections"
-            scope="roster"
-            value="1"
-            type="min"
-            percentValue="false"/>
-
-        <constraint
-            id="max-general"
-            field="selections"
-            scope="roster"
-            value="1"
-            type="max"
-            percentValue="false"/>
-
-    </constraints>
-
-</selectionEntry>
+        <!-- ========================= -->
+        <!--    SPEARMEN               -->
+        <!-- ========================= -->
 
         <selectionEntry
             id="unit-spearmen"
@@ -104,7 +102,6 @@
             import="true">
 
             <profiles>
-
                 <profile
                     id="prof-spearmen"
                     name="Spearmen"
@@ -113,174 +110,158 @@
                     typeName="Unit Profile">
 
                     <characteristics>
-
                         <characteristic
                             id="char-value-att-spearmen"
                             typeId="char-att"
-                            name="Attacks">3</characteristic>
+                            name="Attacks">3
+                        </characteristic>
 
                         <characteristic
                             id="char-value-hits-spearmen"
                             typeId="char-hits"
-                            name="Hits">3</characteristic>
+                            name="Hits">3
+                        </characteristic>
 
                         <characteristic
                             id="char-value-arm-spearmen"
                             typeId="char-arm"
-                            name="Armor">5+</characteristic>
+                            name="Armor">5+
+                        </characteristic>
 
                         <characteristic
                             id="char-value-size-spearmen"
                             typeId="char-size"
-                            name="Size">3</characteristic>
-
+                            name="Size">3
+                        </characteristic>
                     </characteristics>
-
                 </profile>
-
             </profiles>
 
             <costs>
-
                 <cost
                     id="cost-spearmen"
                     typeId="points"
                     name="pts"
                     value="60.0"/>
-
-            </costs>
-
-            <categoryLinks>
-
-                <categoryLink
-                    id="category-spearmen"
-                    name="Infantry"
-                    targetId="cat-inf"
-                    primary="true"
-                    hidden="false"/>
-
-            </categoryLinks>
-
-<constraints>
-
-    <constraint
-        id="min-spearmen"
-        field="selections"
-        scope="roster"
-        value="0"
-        type="min"
-        percentValue="false"/>
-
-</constraints>
-
-<modifiers>
-
-    <modifier
-        id="modifier-spearmen-small-battle"
-        type="set"
-        field="min-spearmen"
-        value="2">
-
-        <conditions>
-
-            <condition
-                field="selections"
-                scope="roster"
-                value="1"
-                percentValue="false"
-                shared="false"
-                includeChildSelections="true"
-                includeChildForces="false"
-                childId="battle-small"
-                type="atLeast"/>
-
-        </conditions>
-
-    </modifier>
-
-</modifiers>
-
+                </costs>
+            
+                <categoryLinks>
+                    <categoryLink
+                        id="category-spearmen"
+                        name="Infantry"
+                        targetId="cat-inf"
+                        primary="true"
+                        hidden="false"/>
+                </categoryLinks>
+                
+                <constraints>
+                    <constraint
+                        id="min-spearmen"
+                        field="selections"
+                        scope="roster"
+                        value="0"
+                        type="min"
+                        percentValue="false"/>
+                </constraints>
+                
+                <modifiers>
+                    <modifier
+                        id="modifier-spearmen-small-battle"
+                        type="set"
+                        field="min-spearmen"
+                        value="2">
+                    
+                        <conditions>
+                            <condition
+                                field="selections"
+                                scope="roster"
+                                value="1"
+                                percentValue="false"
+                                shared="false"
+                                includeChildSelections="true"
+                                includeChildForces="false"
+                                childId="battle-small"
+                                type="atLeast"/>
+                        </conditions>
+                    </modifier>
+                </modifiers>
         </selectionEntry>
 
+        <!-- ========================= -->
+        <!--    ARCHERS                -->
+        <!-- ========================= -->
 
-        <selectionEntry
-            id="unit-archers"
-            name="Archers"
-            hidden="false"
-            type="unit"
-            import="true">
+            <selectionEntry
+                id="unit-archers"
+                name="Archers"
+                hidden="false"
+                type="unit"
+                import="true">
 
-            <profiles>
+                <profiles>
+                    <profile
+                        id="prof-archers"
+                        name="Archers"
+                        hidden="false"
+                        typeId="unit-profile"
+                        typeName="Unit Profile">
+    
+                        <characteristics>
+                            <characteristic
+                                id="char-value-att-archers"
+                                typeId="char-att"
+                                name="Attacks">3/1
+                            </characteristic>
+    
+                            <characteristic
+                                id="char-value-range-archers"
+                                typeId="char-range"
+                                name="Range">30cm
+                            </characteristic>
 
-                <profile
-                    id="prof-archers"
-                    name="Archers"
-                    hidden="false"
-                    typeId="unit-profile"
-                    typeName="Unit Profile">
+                            <characteristic
+                                id="char-value-hits-archers"
+                                typeId="char-hits"
+                                name="Hits">3
+                            </characteristic>
 
-                    <characteristics>
+                            <characteristic
+                                id="char-value-arm-archers"
+                                typeIdtypeId="char-arm"
+                                name="Armor">6+
+                            </characteristic>
 
-                        <characteristic
-                            id="char-value-att-archers"
-                            typeId="char-att"
-                            name="Attacks">3/1</characteristic>
+                            <characteristic
+                                id="char-value-size-archers"
+                                typeId="char-size"
+                                name="Size">3
+                            </characteristic>
 
-                        <characteristic
-                            id="char-value-range-archers"
-                            typeId="char-range"
-                            name="Range">30cm</characteristic>
+                            <characteristic
+                                id="char-value-special-archers"
+                                typeId="char-special"
+                                name="Special Rules">Archers. High Elf archers add +1 to their dice rolls when making Shooting attacks. They will therefore score a hit against targets in the open on a 3 or more, against targets that are defended on a 4 or more, and against fortified targets on a 5 or more.</characteristic>
+                            </characteristics>
+                    </profile>
+                </profiles>
 
-                        <characteristic
-                            id="char-value-hits-archers"
-                            typeId="char-hits"
-                            name="Hits">3</characteristic>
-
-                        <characteristic
-                            id="char-value-arm-archers"
-                            typeId="char-arm"
-                            name="Armor">6+</characteristic>
-
-                        <characteristic
-                            id="char-value-size-archers"
-                            typeId="char-size"
-                            name="Size">3</characteristic>
-
-                        <characteristic
-                            id="char-value-special-archers"
-                            typeId="char-special"
-                            name="Special Rules">Archers. High Elf archers add +1 to their dice rolls when making Shooting attacks. They will therefore score a hit against targets in the open on a 3 or more, against targets that are defended on a 4 or more, and against fortified targets on a 5 or more.</characteristic>
-
-                    </characteristics>
-
-                </profile>
-
-            </profiles>
-
-            <costs>
-
-                <cost
-                    id="cost-archers"
-                    typeId="points"
-                    name="pts"
-                    value="75.0"/>
-
-            </costs>
-
+                <costs>
+                    <cost
+                        id="cost-archers"
+                        typeId="points"
+                        name="pts"
+                        value="75.0"/>
+                    </costs>
             <categoryLinks>
-
                 <categoryLink
                     id="category-archers"
                     name="Infantry"
                     targetId="cat-inf"
                     primary="true"
                     hidden="false"/>
-
-            </categoryLinks>
-
-        </selectionEntry>
-
-    </sharedSelectionEntries>
+                </categoryLinks>
+            </selectionEntry>
+        </sharedSelectionEntries>
 
 
     <!-- ========================= -->
@@ -474,5 +455,4 @@
             import="true"/>
 
     </entryLinks>
-
 </catalogue>
