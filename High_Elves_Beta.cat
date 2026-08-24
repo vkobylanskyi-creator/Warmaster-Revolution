@@ -13,6 +13,98 @@
 
     <sharedSelectionEntries>
 
+<selectionEntry
+    id="unit-general"
+    name="General"
+    hidden="false"
+    type="unit"
+    import="true">
+
+    <profiles>
+
+        <profile
+            id="prof-general"
+            name="General"
+            hidden="false"
+            typeId="unit-profile"
+            typeName="Unit Profile">
+
+            <characteristics>
+
+                <characteristic
+                    id="char-value-att-general"
+                    typeId="char-att"
+                    name="Attacks">+2</characteristic>
+
+                <characteristic
+                    id="char-value-hits-general"
+                    typeId="char-hits"
+                    name="Hits">–</characteristic>
+
+                <characteristic
+                    id="char-value-arm-general"
+                    typeId="char-arm"
+                    name="Armor">–</characteristic>
+
+                <characteristic
+                    id="char-value-size-general"
+                    typeId="char-size"
+                    name="Size">1</characteristic>
+
+                <characteristic
+                    id="char-value-special-general"
+                    typeId="char-special"
+                    name="Special Rules">Command: 10</characteristic>
+
+            </characteristics>
+
+        </profile>
+
+    </profiles>
+
+    <costs>
+
+        <cost
+            id="cost-general"
+            typeId="points"
+            name="pts"
+            value="180.0"/>
+
+    </costs>
+
+    <categoryLinks>
+
+        <categoryLink
+            id="category-general"
+            name="Characters"
+            targetId="cat-char"
+            primary="true"
+            hidden="false"/>
+
+    </categoryLinks>
+
+    <constraints>
+
+        <constraint
+            id="min-general"
+            field="selections"
+            scope="roster"
+            value="1"
+            type="min"
+            percentValue="false"/>
+
+        <constraint
+            id="max-general"
+            field="selections"
+            scope="roster"
+            value="1"
+            type="max"
+            percentValue="false"/>
+
+    </constraints>
+
+</selectionEntry>
+
         <selectionEntry
             id="unit-spearmen"
             name="Spearmen"
@@ -364,6 +456,15 @@
             import="true"
             type="selectionEntryGroup"
             targetId="battle-size-group"/>
+
+<entryLink
+    id="link-general"
+    name="General"
+    hidden="false"
+    collective="false"
+    import="true"
+    type="selectionEntry"
+    targetId="unit-general"/>
 
         <entryLink
             id="link-spearmen"
