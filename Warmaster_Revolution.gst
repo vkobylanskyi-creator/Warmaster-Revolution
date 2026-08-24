@@ -68,6 +68,11 @@
             name="Cavalry"
             hidden="false"/>
 
+        <categoryEntry
+            id="cat-chat"
+            name="Chariot"
+            hidden="false"/>
+
     </categoryEntries>
 
     <forceEntries>
@@ -79,6 +84,14 @@
             hidden="false">
 
             <categoryLinks>
+
+                <categoryLink
+                    id="force-char"
+                    name="Characters"
+                    targetId="cat-char"
+                    primary="false"
+                    hidden="false"
+                    type="category"/>
 
                 <categoryLink
                     id="force-inf"
@@ -97,9 +110,9 @@
                     type="category"/>
 
                 <categoryLink
-                    id="force-char"
-                    name="Characters"
-                    targetId="cat-char"
+                    id="force-chat"
+                    name="Chariots"
+                    targetId="cat-chat"
                     primary="false"
                     hidden="false"
                     type="category"/>
@@ -132,6 +145,14 @@
             <categoryLinks>
 
                 <categoryLink
+                    id="small-char"
+                    name="Characters"
+                    targetId="cat-char"
+                    primary="false"
+                    hidden="false"
+                    type="category"/>
+
+                <categoryLink
                     id="small-inf"
                     name="Infantry"
                     targetId="cat-inf"
@@ -149,8 +170,8 @@
 
                 <categoryLink
                     id="small-char"
-                    name="Characters"
-                    targetId="cat-char"
+                    name="Chariots"
+                    targetId="cat-chat"
                     primary="false"
                     hidden="false"
                     type="category"/>
