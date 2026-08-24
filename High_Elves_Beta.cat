@@ -240,8 +240,9 @@
                             <characteristic
                                 id="char-value-special-archers"
                                 typeId="char-special"
-                                name="Special Rules">Archers. High Elf archers add +1 to their dice rolls when making Shooting attacks. They will therefore score a hit against targets in the open on a 3 or more, against targets that are defended on a 4 or more, and against fortified targets on a 5 or more.</characteristic>
-                            </characteristics>
+                                name="Special Rules">Archers. High Elf archers add +1 to their dice rolls when making Shooting attacks. They will therefore score a hit against targets in the open on a 3 or more, against targets that are defended on a 4 or more, and against fortified targets on a 5 or more.
+                            </characteristic>
+                        </characteristics>
                     </profile>
                 </profiles>
 
@@ -263,6 +264,71 @@
             </selectionEntry>
         </sharedSelectionEntries>
 
+        <!-- ========================= -->
+        <!--    SILVER HELMS           -->
+        <!-- ========================= -->
+
+            <selectionEntry
+                id="unit-silver"
+                name="Silver Helms"
+                hidden="false"
+                type="unit"
+                import="true">
+
+                <profiles>
+                    <profile
+                        id="prof-silver"
+                        name="Silver Helms"
+                        hidden="false"
+                        typeId="unit-profile"
+                        typeName="Unit Profile">
+    
+                        <characteristics>
+                            <characteristic
+                                id="char-value-att-silver"
+                                typeId="char-att"
+                                name="Attacks">3
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-hits-silver"
+                                typeId="char-hits"
+                                name="Hits">3
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-arm-silver"
+                                typeIdtypeId="char-arm"
+                                name="Armor">4+
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-size-silver"
+                                typeId="char-size"
+                                name="Size">3
+                            </characteristic>
+                        </characteristics>
+                    </profile>
+                </profiles>
+
+                <costs>
+                    <cost
+                        id="cost-archers"
+                        typeId="points"
+                        name="pts"
+                        value="110.0"/>
+                    </costs>
+            
+            <categoryLinks>
+                <categoryLink
+                    id="category-silver"
+                    name="Cavalry"
+                    targetId="cat-cav"
+                    primary="true"
+                    hidden="false"/>
+                </categoryLinks>
+            </selectionEntry>
+        </sharedSelectionEntries>
 
     <!-- ========================= -->
     <!-- BATTLE SIZE               -->
