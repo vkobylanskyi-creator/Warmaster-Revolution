@@ -432,6 +432,160 @@
                         hidden="false"/>
                 </categoryLinks>
             </selectionEntry>
+
+        <!-- ========================= -->
+        <!--    GIANT EAGLES           -->
+        <!-- ========================= -->
+
+        <selectionEntry
+            id="unit-eagles"
+            name="Giant Eagles"
+            hidden="false"
+            type="unit"
+            import="true">
+
+            <profiles>
+                <profile
+                    id="prof-eagles"
+                    name="Giant Eagles"
+                    hidden="false"
+                    typeId="unit-profile"
+                    typeName="Unit Profile">
+
+                    <characteristics>
+                        <characteristic
+                            id="char-value-att-eagles"
+                            typeId="char-att"
+                            name="Attacks">2
+                        </characteristic>
+
+                        <characteristic
+                            id="char-value-hits-eagles"
+                            typeId="char-hits"
+                            name="Hits">3
+                        </characteristic>
+
+                        <characteristic
+                            id="char-value-arm-eagles"
+                            typeId="char-arm"
+                            name="Armor">6+
+                        </characteristic>
+
+                        <characteristic
+                            id="char-value-size-eagles"
+                            typeId="char-size"
+                            name="Size">3
+                        </characteristic>
+
+                        <characteristic
+                            id="char-value-special-eagles"
+                            typeId="char-special"
+                            name="Special Rules">Giant Eagles. Giant Eagles can fly.
+                        </characteristic>
+                    </characteristics>
+                </profile>
+            </profiles>
+
+            <costs>
+                <cost
+                    id="cost-eagles"
+                    typeId="points"
+                    name="pts"
+                    value="70.0"/>
+                </costs>
+            
+                <categoryLinks>
+                    <categoryLink
+                        id="category-eagles"
+                        name="Monster"
+                        targetId="cat-mon"
+                        primary="true"
+                        hidden="false"/>
+                </categoryLinks>
+        </selectionEntry>
+
+        <!-- ========================= -->
+        <!--    DRAGON RIDER           -->
+        <!-- ========================= -->
+
+            <selectionEntry
+                id="unit-rider"
+                name="Dragon Rider"
+                hidden="false"
+                type="unit"
+                import="true">
+
+                <profiles>
+                    <profile
+                        id="prof-rider"
+                        name="Dragon Rider"
+                        hidden="false"
+                        typeId="unit-profile"
+                        typeName="Unit Profile">
+    
+                        <characteristics>
+                            <characteristic
+                                id="char-value-att-rider"
+                                typeId="char-att"
+                                name="Attacks">6/3
+                            </characteristic>
+    
+                            <characteristic
+                                id="char-value-range-rider"
+                                typeId="char-range"
+                                name="Range">20cm
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-hits-rider"
+                                typeId="char-hits"
+                                name="Hits">6
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-arm-rider"
+                                typeId="char-arm"
+                                name="Armor">4+
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-size-rider"
+                                typeId="char-size"
+                                name="Size">1
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-special-rider"
+                                typeId="char-special"
+                                name="Special Rules">Dragons. Dragons can fly. Dragon Rider units and any other units that include a Dragon-riding character cause terror in their enemies.
+
+                                Because Dragon Riders have a great many hits (6) which are difficult to inflict even during a lengthy combat engagement, we must consider the possibility of hurting the Dragon and reducing its effectiveness in subsequent turns. Therefore, if a Dragon Rider has accumulated 4-5 hits by the end of the Shooting phase or Combat phase and is no longer engaged in combat it is deemed to have been badly hurt. Once a Dragon has been badly hurt all accumulated hits are discounted and its maximum hits value and Attacks are halved for the rest of the battle (to 3 Hits and 3/2 Attacks).
+
+                                Generals, Wizards and Heroes can ride Dragons. A Dragon can fly increasing its rider‘s move from 60 to 100cm. An extra +3 Attacks are added to those of its rider. A Dragon can breathe fire if the character has joined a unit that isn‘t engaged in combat. A Dragon ridden by a character can‘t breathe fire if it is not part of a unit.
+
+                                Dragons can make a fiery breath. This applies both to a unit of Dragon Riders and to Dragons ridden by characters that have joined a unit of troops. Fire Breath works as follows. The fire breath has a range of 20cm. Breath can be directed against one target as for normal shooting and has 3 Attacks that are worked out in the usual way at 4+ to hit.
+                            </characteristic>
+                        </characteristics>
+                    </profile>
+                </profiles>
+
+                <costs>
+                    <cost
+                        id="cost-rider"
+                        typeId="points"
+                        name="pts"
+                        value="270.0"/>
+                    </costs>
+                
+                <categoryLinks>
+                    <categoryLink
+                        id="category-rider"
+                        name="Monster"
+                        targetId="cat-mon"
+                        primary="true"
+                        hidden="false"/>
+                </categoryLinks>
+            </selectionEntry>
         </sharedSelectionEntries>
 
     <!-- ========================= -->
