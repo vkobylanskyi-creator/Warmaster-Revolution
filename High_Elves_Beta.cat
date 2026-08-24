@@ -367,6 +367,71 @@
                         hidden="false"/>
                 </categoryLinks>
             </selectionEntry>
+
+        <!-- ========================= -->
+        <!--    CHARIOTS               -->
+        <!-- ========================= -->
+
+            <selectionEntry
+                id="unit-chariots"
+                name="Chariots"
+                hidden="false"
+                type="unit"
+                import="true">
+
+                <profiles>
+                    <profile
+                        id="prof-chariots"
+                        name="Chariots"
+                        hidden="false"
+                        typeId="unit-profile"
+                        typeName="Unit Profile">
+    
+                        <characteristics>
+                            <characteristic
+                                id="char-value-att-chariots"
+                                typeId="char-att"
+                                name="Attacks">3
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-hits-chariots"
+                                typeId="char-hits"
+                                name="Hits">3
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-arm-chariots"
+                                typeId="char-arm"
+                                name="Armor">5+
+                            </characteristic>
+
+                            <characteristic
+                                id="char-value-size-chariots"
+                                typeId="char-size"
+                                name="Size">3
+                            </characteristic>
+                        </characteristics>
+                    </profile>
+                </profiles>
+
+                <costs>
+                    <cost
+                        id="cost-chariots"
+                        typeId="points"
+                        name="pts"
+                        value="95.0"/>
+                </costs>
+            
+                <categoryLinks>
+                    <categoryLink
+                        id="category-chariots"
+                        name="Chariots"
+                        targetId="cat-chat"
+                        primary="true"
+                        hidden="false"/>
+                </categoryLinks>
+            </selectionEntry>
         </sharedSelectionEntries>
 
     <!-- ========================= -->
@@ -546,6 +611,14 @@
             hidden="false"
             type="selectionEntry"
             targetId="unit-reavers"
+            import="true"/>
+
+        <entryLink
+            id="link-chariots"
+            name="Chariots"
+            hidden="false"
+            type="selectionEntry"
+            targetId="unit-chariots"
             import="true"/>
 
     </entryLinks>
