@@ -80,7 +80,7 @@
 
         <categoryEntry
             id="cat-art"
-            name="Artilery"
+            name="Artillery"
             hidden="false"/>
 
     </categoryEntries>
@@ -137,7 +137,7 @@
 
                 <categoryLink
                     id="force-art"
-                    name="Artilery"
+                    name="Artillery"
                     targetId="cat-art"
                     primary="false"
                     hidden="false"
@@ -212,7 +212,7 @@
 
                 <categoryLink
                     id="force-art"
-                    name="Artilery"
+                    name="Artillery"
                     targetId="cat-art"
                     primary="false"
                     hidden="false"
