@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+\<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue
     library="false"
     id="he-beta-cat"
@@ -485,14 +485,14 @@
             type="selectionEntryGroup"
             targetId="battle-size-group"/>
 
-<entryLink
-    id="link-general"
-    name="General"
-    hidden="false"
-    collective="false"
-    import="true"
-    type="selectionEntry"
-    targetId="unit-general"/>
+        <entryLink
+            id="link-general"
+            name="General"
+            hidden="false"
+            collective="false"
+            import="true"
+            type="selectionEntry"
+            targetId="unit-general"/>
 
         <entryLink
             id="link-spearmen"
@@ -508,6 +508,14 @@
             hidden="false"
             type="selectionEntry"
             targetId="unit-archers"
+            import="true"/>
+
+        <entryLink
+            id="link-silver"
+            name="Silver Helms"
+            hidden="false"
+            type="selectionEntry"
+            targetId="unit-silver"
             import="true"/>
 
     </entryLinks>
