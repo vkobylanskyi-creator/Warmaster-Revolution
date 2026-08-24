@@ -127,6 +127,22 @@
                     hidden="false"
                     type="category"/>
 
+                <categoryLink
+                    id="force-mon"
+                    name="Monster"
+                    targetId="cat-mon"
+                    primary="false"
+                    hidden="false"
+                    type="category"/>
+
+                <categoryLink
+                    id="force-art"
+                    name="Artilery"
+                    targetId="cat-art"
+                    primary="false"
+                    hidden="false"
+                    type="category"/>
+
             </categoryLinks>
 
         </forceEntry>
@@ -182,6 +198,22 @@
                     id="small-char"
                     name="Chariots"
                     targetId="cat-chat"
+                    primary="false"
+                    hidden="false"
+                    type="category"/>
+
+                <categoryLink
+                    id="force-mon"
+                    name="Monster"
+                    targetId="cat-mon"
+                    primary="false"
+                    hidden="false"
+                    type="category"/>
+
+                <categoryLink
+                    id="force-art"
+                    name="Artilery"
+                    targetId="cat-art"
                     primary="false"
                     hidden="false"
                     type="category"/>
