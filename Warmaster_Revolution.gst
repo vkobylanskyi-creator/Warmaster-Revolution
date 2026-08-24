@@ -50,6 +50,11 @@
     <categoryEntries>
 
         <categoryEntry
+            id="cat-char"
+            name="Characters"
+            hidden="false"/>
+
+        <categoryEntry
             id="cat-inf"
             name="Infantry"
             hidden="false"/>
@@ -57,11 +62,6 @@
         <categoryEntry
             id="cat-cav"
             name="Cavalry"
-            hidden="false"/>
-
-        <categoryEntry
-            id="cat-char"
-            name="Characters"
             hidden="false"/>
 
     </categoryEntries>
