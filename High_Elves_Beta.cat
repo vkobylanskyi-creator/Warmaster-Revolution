@@ -120,30 +120,46 @@
         <selectionEntries>
 
             <selectionEntry
-                id="mount-giant-eagle"
-                name="Giant Eagle"
-                hidden="false"
-                type="upgrade"
-                import="true">
+    id="mount-giant-eagle"
+    name="Giant Eagle"
+    hidden="false"
+    type="upgrade"
+    import="true">
 
-                <costs>
-                    <cost
-                        id="cost-mount-giant-eagle"
-                        typeId="points"
-                        name="pts"
-                        value="20.0"/>
-                </costs>
+    <profiles>
 
-                <modifiers>
-                    <modifier
-                        id="modifier-mount-giant-eagle-attacks"
-                        type="increment"
-                        field="Attacks"
-                        value="2">
-                    </modifier>
-                </modifiers>
+        <profile
+            id="profile-mount-giant-eagle"
+            name="Giant Eagle"
+            hidden="false"
+            typeId="unit-profile"
+            typeName="Unit Profile">
 
-            </selectionEntry>
+            <characteristics>
+
+                <characteristic
+                    id="char-mount-giant-eagle-attacks"
+                    typeId="char-att"
+                    name="Attacks">+2
+                </characteristic>
+
+            </characteristics>
+
+        </profile>
+
+    </profiles>
+
+    <costs>
+
+        <cost
+            id="cost-mount-giant-eagle"
+            typeId="points"
+            name="pts"
+            value="20.0"/>
+
+    </costs>
+
+</selectionEntry>
 
         </selectionEntries>
 
