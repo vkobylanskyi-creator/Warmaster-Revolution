@@ -88,6 +88,68 @@
                     type="max"
                     percentValue="false"/>
             </constraints>
+        <!-- ========================= -->
+        <!--    MOUNTS                 -->
+        <!-- ========================= -->
+<selectionEntryGroups>
+    <selectionEntryGroup
+        id="general-mounts"
+        name="Mount"
+        hidden="false"
+        collective="false"
+        import="true">
+
+        <constraints>
+            <constraint
+                id="general-mount-min"
+                field="selections"
+                scope="parent"
+                value="0"
+                type="min"
+                percentValue="false"/>
+
+            <constraint
+                id="general-mount-max"
+                field="selections"
+                scope="parent"
+                value="1"
+                type="max"
+                percentValue="false"/>
+        </constraints>
+
+        <selectionEntries>
+
+            <selectionEntry
+                id="mount-giant-eagle"
+                name="Giant Eagle"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="cost-mount-giant-eagle"
+                        typeId="points"
+                        name="pts"
+                        value="20.0"/>
+                </costs>
+
+                <modifiers>
+                    <modifier
+                        id="modifier-mount-giant-eagle-attacks"
+                        type="increment"
+                        field="Attacks"
+                        value="2">
+                    </modifier>
+                </modifiers>
+
+            </selectionEntry>
+
+        </selectionEntries>
+
+    </selectionEntryGroup>
+</selectionEntryGroups>
+
         </selectionEntry>
 
         <!-- ========================= -->
