@@ -189,13 +189,7 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
                 <characteristic
                     id="char-mount-dragon-attacks"
                     typeId="char-att"
-                    name="Attacks">+3/+3
-                </characteristic>
-
-                <characteristic
-                    id="char-mount-dragon-range"
-                    typeId="char-range"
-                    name="Range">20cm
+                    name="Attacks">+3
                 </characteristic>
 
                 <characteristic
