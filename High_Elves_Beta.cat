@@ -143,6 +143,13 @@
                     name="Attacks">+2
                 </characteristic>
 
+                <characteristic
+                    id="char-mount-giant-eagle-special"
+                    typeId="char-special"
+                    name="Special Rules">
+Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle can fly increasing its rider‘s move from 60 to 100cm. An extra +2 Attacks are added to those of its rider.
+                </characteristic>
+
             </characteristics>
 
         </profile>
@@ -285,7 +292,7 @@
                         </characteristic>
 
                         <characteristic
-                            id="char-value-special-eagles"
+                            id="char-value-special-mage"
                             typeId="char-special"
                             name="Special Rules">Wizard. High Elf Mages are especially powerful wizards and to represent this can re-roll a failed spell on any dice result except a 1. If a spell is failed because a 1 is rolled then no re-roll is permitted.
                         </characteristic>
