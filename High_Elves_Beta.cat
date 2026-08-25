@@ -821,7 +821,7 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
                 <categoryLinks>
                     <categoryLink
                         id="category-artillery"
-                        name="Monster"
+                        name="Artillery"
                         targetId="cat-art"
                         primary="true"
                         hidden="false"/>
