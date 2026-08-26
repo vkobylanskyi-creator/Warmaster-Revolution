@@ -1876,13 +1876,12 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
             import="true"/>
 
         <entryLink
-            id="link-beta-swordmasters"
-            name="Swordmasters"
+            id="link-swordmasters"
+            name="Swordmasters [BETA]"
             hidden="false"
-            collective="false"
-            import="true"
             type="selectionEntry"
-            targetId="unit-beta-swordmasters"/>
+            targetId="unit-archers"
+            import="true"/>
 
         <entryLink
             id="link-beta-phoenix-guard"
