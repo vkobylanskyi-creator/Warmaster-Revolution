@@ -1,4 +1,4 @@
-\<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue
     library="false"
     id="he-beta-cat"
@@ -918,7 +918,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
         <selectionEntry
             id="unit-swordmasters"
-            name="Spearmen  [BETA]"
+            name="Swordmasters [BETA]"
             hidden="false"
             type="unit"
             import="true">
@@ -982,102 +982,71 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
         <!-- ========================= -->
 
         <selectionEntry
-            id="unit-beta-phoenix-guard"
-            name="Phoenix Guard"
-            hidden="true"
+            id="unit-phoenix-guard"
+            name="Phoenix Guard [BETA]"
+            hidden="false"
             type="unit"
             import="true">
 
             <profiles>
-
                 <profile
-                    id="prof-beta-phoenix-guard"
-                    name="Phoenix Guard"
+                    id="prof-phoenix-guard"
+                    name="Phoenix Guard [BETA]"
                     hidden="false"
                     typeId="unit-profile"
                     typeName="Unit Profile">
 
                     <characteristics>
-
                         <characteristic
-                            id="char-value-att-beta-phoenix-guard"
+                            id="char-value-att-phoenix-guard"
                             typeId="char-att"
-                            name="Attacks">3</characteristic>
+                            name="Attacks">3
+                        </characteristic>
 
                         <characteristic
-                            id="char-value-hits-beta-phoenix-guard"
+                            id="char-value-hits-phoenix-guard"
                             typeId="char-hits"
-                            name="Hits">3</characteristic>
+                            name="Hits">3
+                        </characteristic>
 
                         <characteristic
-                            id="char-value-arm-beta-phoenix-guard"
+                            id="char-value-arm-phoenix-guard"
                             typeId="char-arm"
-                            name="Armor">4+</characteristic>
+                            name="Armor">4+
+                        </characteristic>
 
                         <characteristic
-                            id="char-value-size-beta-phoenix-guard"
+                            id="char-value-size-phoenix-guard"
                             typeId="char-size"
-                            name="Size">3</characteristic>
+                            name="Size">3
+                        </characteristic>
 
-                        <characteristic
-                            id="char-value-special-beta-phoenix-guard"
-                            typeId="char-special"
-                            name="Special Rules">Phoenix Guard. Unaffected by enemies that cause Terror in combat, so they do not suffer the usual -1 Attack modifier.</characteristic>
-
+                            <characteristic
+                                id="char-value-special-phoenix-guard"
+                                typeId="char-special"
+                                name="Special Rules">
+Phoenix Guard. Phoenix Guard are unaffected by enemies that cause Terror in combat, so they do not suffer the usual-1 Attack modifier.
+                            </characteristic>
                     </characteristics>
-
                 </profile>
-
             </profiles>
 
             <costs>
-
                 <cost
-                    id="cost-beta-phoenix-guard"
+                    id="cost-phoenix-guard"
                     typeId="points"
                     name="pts"
                     value="90.0"/>
-
-            </costs>
-
-            <categoryLinks>
-
-                <categoryLink
-                    id="category-beta-phoenix-guard"
-                    name="Infantry"
-                    targetId="cat-inf"
-                    primary="true"
-                    hidden="false"/>
-
-            </categoryLinks>
-
-            <modifiers>
-
-                <modifier
-                    id="modifier-beta-phoenix-guard"
-                    type="set"
-                    field="hidden"
-                    value="false">
-
-                    <conditions>
-
-                        <condition
-                            field="selections"
-                            scope="roster"
-                            value="1"
-                            percentValue="false"
-                            shared="false"
-                            includeChildSelections="true"
-                            includeChildForces="false"
-                            childId="beta-enabled"
-                            type="instanceOf"/>
-
-                    </conditions>
-
-                </modifier>
-
-            </modifiers>
-
+                </costs>
+            
+                <categoryLinks>
+                    <categoryLink
+                        id="category-phoenix-guard"
+                        name="Infantry"
+                        targetId="cat-inf"
+                        primary="true"
+                        hidden="false"/>
+                </categoryLinks>
         </selectionEntry>
 
         <!-- ========================= -->
@@ -1220,106 +1189,66 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
         <!--    BETA DRAGON PRINCES    -->
         <!-- ========================= -->
 
-        <selectionEntry
-            id="unit-beta-dragon-princes"
-            name="Dragon Princes [BETA]"
-            hidden="true"
-            type="unit"
-            import="true">
+         <selectionEntry
+                id="unit-dragon-princes"
+                name="Dragon Princes [BETA]"
+                hidden="false"
+                type="unit"
+                import="true">
 
-            <profiles>
-
-                <profile
-                    id="prof-beta-dragon-princes"
-                    name="Dragon Princes [BETA]"
-                    hidden="false"
-                    typeId="unit-profile"
-                    typeName="Unit Profile">
-
-                    <characteristics>
-
-                        <characteristic
-                            id="char-value-att-beta-dragon-princes"
-                            typeId="char-att"
-                            name="Attacks">4</characteristic>
-
-                        <characteristic
-                            id="char-value-hits-beta-dragon-princes"
-                            typeId="char-hits"
-                            name="Hits">3</characteristic>
-
-                        <characteristic
-                            id="char-value-arm-beta-dragon-princes"
-                            typeId="char-arm"
-                            name="Armor">4+</characteristic>
-
-                        <characteristic
-                            id="char-value-size-beta-dragon-princes"
-                            typeId="char-size"
-                            name="Size">3</characteristic>
-
-                        <characteristic
-                            id="char-value-special-beta-dragon-princes"
-                            typeId="char-special"
-                            name="Special Rules">
-Dragon Princes. Dragon Princes wear ornate, burnished armor that makes them resistant to fire. They may re-roll any failed Armor saves made against fire based attacks, such as Warpfire, Flame Cannons, Ball Of Flame, Flame Breath, etc. Dragon Princes are exceptionally rare, so only one unit can be taken per army as opposed to one unit per 1,000 рoints.
+                <profiles>
+                    <profile
+                        id="prof-dragon-princes"
+                        name="Dragon Princes [BETA]"
+                        hidden="false"
+                        typeId="unit-profile"
+                        typeName="Unit Profile">
+    
+                        <characteristics>
+                            <characteristic
+                                id="char-value-att-dragon-princes"
+                                typeId="char-att"
+                                name="Attacks">4
                             </characteristic>
 
-                    </characteristics>
+                            <characteristic
+                                id="char-value-hits-dragon-princes"
+                                typeId="char-hits"
+                                name="Hits">3
+                            </characteristic>
 
-                </profile>
+                            <characteristic
+                                id="char-value-arm-dragon-princes"
+                                typeId="char-arm"
+                                name="Armor">4+
+                            </characteristic>
 
-            </profiles>
+                            <characteristic
+                                id="char-value-size-dragon-princes"
+                                typeId="char-size"
+                                name="Size">3
+                            </characteristic>
+                        </characteristics>
+                    </profile>
+                </profiles>
 
-            <costs>
-
-                <cost
-                    id="cost-beta-dragon-princes"
-                    typeId="points"
-                    name="pts"
-                    value="165.0"/>
-
-            </costs>
-
-            <categoryLinks>
-
-                <categoryLink
-                    id="category-beta-dragon-princes"
-                    name="Cavalry"
-                    targetId="cat-cav"
-                    primary="true"
-                    hidden="false"/>
-
-            </categoryLinks>
-
-            <modifiers>
-
-                <modifier
-                    id="modifier-beta-dragon-princes"
-                    type="set"
-                    field="hidden"
-                    value="false">
-
-                    <conditions>
-
-                        <condition
-                            field="selections"
-                            scope="roster"
-                            value="1"
-                            percentValue="false"
-                            shared="false"
-                            includeChildSelections="true"
-                            includeChildForces="false"
-                            childId="beta-enabled"
-                            type="instanceOf"/>
-
-                    </conditions>
-
-                </modifier>
-
-            </modifiers>
-
-        </selectionEntry>
+                <costs>
+                    <cost
+                        id="cost-dragon-princes"
+                        typeId="points"
+                        name="pts"
+                        value="165.0"/>
+                </costs>
+            
+                <categoryLinks>
+                    <categoryLink
+                        id="category-dragon-princes"
+                        name="Cavalry"
+                        targetId="cat-cav"
+                        primary="true"
+                        hidden="false"/>
+                </categoryLinks>
+            </selectionEntry>
 
         <!-- ========================= -->
         <!--    CHARIOTS               -->
@@ -1883,14 +1812,13 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
             import="true"/>
 
         <entryLink
-            id="link-beta-phoenix-guard"
-            name="Phoenix Guard"
-            hidden="true"
-            collective="false"
-            import="true"
+            id="link-phoenix-guard"
+            name="Swordmasters [BETA]"
+            hidden="false"
             type="selectionEntry"
-            targetId="unit-beta-phoenix-guard"/>
-
+            targetId="unit-phoenix-guard"
+            import="true"/>
+       
         <entryLink
             id="link-silver"
             name="Silver Helms"
@@ -1908,13 +1836,12 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
             import="true"/>
 
         <entryLink
-            id="link-beta-dragon-princes"
-            name="Dragon Princes"
-            hidden="true"
-            collective="false"
-            import="true"
+            id="link-dragon-princes"
+            name="Reavers"
+            hidden="false"
             type="selectionEntry"
-            targetId="unit-beta-dragon-princes"/>
+            targetId="unit-dragon-princes"
+            import="true"/>
 
         <entryLink
             id="link-chariots"
