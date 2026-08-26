@@ -218,7 +218,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
     <!--    MOUNT CHARIOT          -->
     <!-- ========================= -->
                 <selectionEntry
-                    id="mount-general-chario"
+                    id="mount-general-chariot"
                     name="Chariot"
                     hidden="false"
                     type="upgrade"
@@ -240,7 +240,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
                                 </characteristic>
 
                                 <characteristic
-                                    id="char-mount-general-giant-eagle-special"
+                                    id="char-mount-general-hariot-special"
                                     typeId="char-special"
                                     name="Special Rules">
 Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attack is added to those of its rider.
@@ -563,7 +563,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
             <costs>
                 <cost
-                    id="cost-hero"
+                    id="cost-mage"
                     typeId="points"
                     name="pts"
                     value="90.0"/>
@@ -1761,7 +1761,7 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
 
         <entryLink
             id="link-swordmasters"
-            name="Swordmasters [BETA]"
+            name="[BETA] Swordmasters"
             hidden="false"
             type="selectionEntry"
             targetId="unit-swordmasters"
@@ -1769,7 +1769,7 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
 
         <entryLink
             id="link-phoenix-guard"
-            name="Swordmasters [BETA]"
+            name="[BETA] Phonix Guarsd"
             hidden="false"
             type="selectionEntry"
             targetId="unit-phoenix-guard"
@@ -1793,7 +1793,7 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
 
         <entryLink
             id="link-dragon-princes"
-            name="Reavers"
+            name="[BETA] Dragon Princes"
             hidden="false"
             type="selectionEntry"
             targetId="unit-dragon-princes"
