@@ -1888,10 +1888,10 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
             targetId="unit-archers"
             import="true"/>
 
-                <entryLink
+        <entryLink
             id="link-beta-swordmasters"
             name="Swordmasters"
-            hidden="true"
+            hidden="false"
             collective="false"
             import="true"
             type="selectionEntry"
