@@ -917,99 +917,66 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
         <!-- ========================= -->
 
         <selectionEntry
-            id="unit-beta-swordmasters"
-            name="Swordmasters"
-            hidden="true"
+            id="unit-swordmasters"
+            name="Spearmen"
+            hidden="false"
             type="unit"
             import="true">
 
             <profiles>
-
                 <profile
-                    id="prof-beta-swordmasters"
-                    name="Swordmasters"
+                    id="prof-swordmasters"
+                    name="Swordmasters [BETA]"
                     hidden="false"
                     typeId="unit-profile"
                     typeName="Unit Profile">
 
                     <characteristics>
-
                         <characteristic
-                            id="char-value-att-beta-swordmasters"
+                            id="char-value-att-swordmasters"
                             typeId="char-att"
-                            name="Attacks">4</characteristic>
+                            name="Attacks">4
+                        </characteristic>
 
                         <characteristic
-                            id="char-value-hits-beta-swordmasters"
+                            id="char-value-hits-swordmasters"
                             typeId="char-hits"
-                            name="Hits">3</characteristic>
+                            name="Hits">3
+                        </characteristic>
 
                         <characteristic
-                            id="char-value-arm-beta-swordmasters"
+                            id="char-value-arm-swordmasters"
                             typeId="char-arm"
-                            name="Armor">5+</characteristic>
+                            name="Armor">5+
+                        </characteristic>
 
                         <characteristic
-                            id="char-value-size-beta-swordmasters"
+                            id="char-value-size-swordmasters"
                             typeId="char-size"
-                            name="Size">3</characteristic>
-
+                            name="Size">3
+                        </characteristic>
                     </characteristics>
-
                 </profile>
-
             </profiles>
 
             <costs>
-
                 <cost
-                    id="cost-beta-swordmasters"
+                    id="cost-swordmasters"
                     typeId="points"
                     name="pts"
                     value="80.0"/>
-
-            </costs>
-
-            <categoryLinks>
-
-                <categoryLink
-                    id="category-beta-swordmasters"
-                    name="Infantry"
-                    targetId="cat-inf"
-                    primary="true"
-                    hidden="false"/>
-
-            </categoryLinks>
-
-            <modifiers>
-
-                <modifier
-                    id="modifier-beta-swordmasters"
-                    type="set"
-                    field="hidden"
-                    value="false">
-
-                    <conditions>
-
-                        <condition
-                            field="selections"
-                            scope="roster"
-                            value="1"
-                            percentValue="false"
-                            shared="false"
-                            includeChildSelections="true"
-                            includeChildForces="false"
-                            childId="beta-enabled"
-                            type="instanceOf"/>
-
-                    </conditions>
-
-                </modifier>
-
-            </modifiers>
-
+                </costs>
+            
+                <categoryLinks>
+                    <categoryLink
+                        id="category-swordmasters
+                        "
+                        name="Infantry"
+                        targetId="cat-inf"
+                        primary="true"
+                        hidden="false"/>
+                </categoryLinks>
         </selectionEntry>
-
 
         <!-- ========================= -->
         <!--    BETA PHOENIX GUARD     -->
@@ -1256,7 +1223,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
         <selectionEntry
             id="unit-beta-dragon-princes"
-            name="Dragon Princes"
+            name="Dragon Princes [BETA]"
             hidden="true"
             type="unit"
             import="true">
@@ -1265,7 +1232,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
                 <profile
                     id="prof-beta-dragon-princes"
-                    name="Dragon Princes"
+                    name="Dragon Princes [BETA]"
                     hidden="false"
                     typeId="unit-profile"
                     typeName="Unit Profile">
@@ -1295,7 +1262,9 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                         <characteristic
                             id="char-value-special-beta-dragon-princes"
                             typeId="char-special"
-                            name="Special Rules">Dragon Princes. May re-roll any failed Armour saves made against fire-based attacks. Only one unit per 1,000 points.</characteristic>
+                            name="Special Rules">
+Dragon Princes. Dragon Princes wear ornate, burnished armor that makes them resistant to fire. They may re-roll any failed Armor saves made against fire based attacks, such as Warpfire, Flame Cannons, Ball Of Flame, Flame Breath, etc. Dragon Princes are exceptionally rare, so only one unit can be taken per army as opposed to one unit per 1,000 рoints.
+                            </characteristic>
 
                     </characteristics>
 
