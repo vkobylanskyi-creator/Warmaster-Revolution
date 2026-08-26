@@ -123,7 +123,7 @@
     <!-- ========================= -->
             <selectionEntries>
                 <selectionEntry
-                    id="mount-giant-eagle"
+                    id="mount-general-giant-eagle"
                     name="Giant Eagle"
                     hidden="false"
                     type="upgrade"
@@ -167,7 +167,7 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
     <!--    MOUNT DRAGON           -->
     <!-- ========================= -->
                 <selectionEntry
-                    id="mount-dragon"
+                    id="mount-general-dragon"
                     name="Dragon"
                     hidden="false"
                     type="upgrade"
@@ -218,7 +218,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
     <!--    MOUNT CHARIOT          -->
     <!-- ========================= -->
                 <selectionEntry
-                    id="mount-chariot"
+                    id="mount-general-chario"
                     name="Chariot"
                     hidden="false"
                     type="upgrade"
@@ -417,7 +417,7 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
     <!--    MOUNT DRAGON           -->
     <!-- ========================= -->
                 <selectionEntry
-                    id="mount-dragon"
+                    id="mount-hero-dragon"
                     name="Dragon"
                     hidden="false"
                     type="upgrade"
@@ -468,7 +468,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
     <!--    MOUNT CHARIOT          -->
     <!-- ========================= -->
                 <selectionEntry
-                    id="mount-chariot"
+                    id="mount-hero-chariot"
                     name="Chariot"
                     hidden="false"
                     type="upgrade"
@@ -630,7 +630,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
     <!-- ========================= -->
             <selectionEntries>
                 <selectionEntry
-                    id="mount-giant-eagle"
+                    id="mount-mage-giant-eagle"
                     name="Giant Eagle"
                     hidden="false"
                     type="upgrade"
@@ -674,7 +674,7 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
     <!--    MOUNT DRAGON           -->
     <!-- ========================= -->
                 <selectionEntry
-                    id="mount-dragon"
+                    id="mount-mage-dragon"
                     name="Dragon"
                     hidden="false"
                     type="upgrade"
@@ -725,7 +725,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
     <!--    MOUNT CHARIOT          -->
     <!-- ========================= -->
                 <selectionEntry
-                    id="mount-chariot"
+                    id="mount-mage-chariot"
                     name="Chariot"
                     hidden="false"
                     type="upgrade"
