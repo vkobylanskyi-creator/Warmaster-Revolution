@@ -355,15 +355,48 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
     <!-- ========================= -->
     <!--    MOUNT DRAGON           -->
     <!-- ========================= -->
-<entryLink
-    id="link-general-dragon"
-    name="Dragon"
-    hidden="false"
-    collective="false"
-    import="true"
-    type="selectionEntry"
-    targetId="global-mount-dragon"/>                
-    <!-- ========================= -->
+<selectionEntries>
+                <selectionEntry
+                    id="mount-general-dragon"
+                    name="Dragon"
+                    hidden="false"
+                    type="upgrade"
+                    import="true">
+
+                    <profiles>
+                        <profile
+                            id="profile-mount-general-dragon"
+                            name="Dragon"
+                            hidden="false"
+                            typeId="unit-profile"
+                            typeName="Unit Profile">
+
+                            <characteristics>
+                                <characteristic
+                                    id="char-mount-general-dragon-attacks"
+                                    typeId="char-att"
+                                    name="Attacks">+3
+                                </characteristic>
+
+                                <characteristic
+                                    id="char-mount-general-dragon-special"
+                                    typeId="char-special"
+                                    name="Special Rules">
+Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle can fly increasing its rider‘s move from 60 to 100cm. An extra +2 Attacks are added to those of its rider.
+                                </characteristic>
+                            </characteristics>
+                        </profile>
+                    </profiles>
+
+                    <costs>
+                        <cost
+                            id="cost-mount-general-dragon"
+                            typeId="points"
+                            name="pts"
+                            value="100.0"/>
+                    </costs>
+                </selectionEntry>
+<!-- ========================= -->
     <!--    MOUNT CHARIOT          -->
     <!-- ========================= -->
                 <selectionEntry
