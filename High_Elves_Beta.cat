@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+\<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue
     library="false"
     id="he-beta-cat"
@@ -918,7 +918,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
         <selectionEntry
             id="unit-swordmasters"
-            name="Spearmen"
+            name="Spearmen  [BETA]"
             hidden="false"
             type="unit"
             import="true">
@@ -969,8 +969,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
             
                 <categoryLinks>
                     <categoryLink
-                        id="category-swordmasters
-                        "
+                        id="category-swordmasters"
                         name="Infantry"
                         targetId="cat-inf"
                         primary="true"
@@ -1880,7 +1879,7 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
             name="Swordmasters [BETA]"
             hidden="false"
             type="selectionEntry"
-            targetId="unit-archers"
+            targetId="unit-swordmasters"
             import="true"/>
 
         <entryLink
