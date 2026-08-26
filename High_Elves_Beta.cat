@@ -131,7 +131,7 @@
 
                     <profiles>
                         <profile
-                            id="profile-mount-giant-eagle"
+                            id="profile-mount-general-giant-eagle"
                             name="Giant Eagle"
                             hidden="false"
                             typeId="unit-profile"
@@ -139,13 +139,13 @@
 
                             <characteristics>
                                 <characteristic
-                                    id="char-mount-giant-eagle-attacks"
+                                    id="char-mount-general-giant-eagle-attacks"
                                     typeId="char-att"
                                     name="Attacks">+2
                                 </characteristic>
 
                                 <characteristic
-                                    id="char-mount-giant-eagle-special"
+                                    id="char-mount-general-giant-eagle-special"
                                     typeId="char-special"
                                     name="Special Rules">
 Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle can fly increasing its rider‘s move from 60 to 100cm. An extra +2 Attacks are added to those of its rider.
@@ -156,7 +156,7 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
 
                     <costs>
                         <cost
-                            id="cost-mount-giant-eagle"
+                            id="cost-mount-general-giant-eagle"
                             typeId="points"
                             name="pts"
                             value="20.0"/>
@@ -175,7 +175,7 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
 
                     <profiles>
                         <profile
-                            id="profile-mount-dragon"
+                            id="profile-mount-general-dragon"
                             name="Dragon"
                             hidden="false"
                             typeId="unit-profile"
@@ -183,13 +183,13 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
 
                             <characteristics>
                                 <characteristic
-                                    id="char-mount-dragon-attacks"
+                                    id="char-mount-general-dragon-attacks"
                                     typeId="char-att"
                                     name="Attacks">+3
                                 </characteristic>
 
                                 <characteristic
-                                    id="char-mount-dragon-special"
+                                    id="char-mount-general-dragon-special"
                                     typeId="char-special"
                                     name="Special Rules">
 Dragons. Dragons can fly. Dragon Rider units and any other units that include a Dragon-riding character cause terror in their enemies.
@@ -207,7 +207,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
 
                     <costs>
                         <cost
-                            id="cost-mount-dragon"
+                            id="cost-mount-general-dragon"
                             typeId="points"
                             name="pts"
                             value="100.0"/>
@@ -226,7 +226,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
 
                     <profiles>
                         <profile
-                            id="profile-mount-chariot"
+                            id="profile-mount-general-chariot"
                             name="Chariot"
                             hidden="false"
                             typeId="unit-profile"
@@ -234,13 +234,13 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
 
                             <characteristics>
                                 <characteristic
-                                    id="char-mount-chariot-attacks"
+                                    id="char-mount-general-chariot-attacks"
                                     typeId="char-att"
                                     name="Attacks">+1
                                 </characteristic>
 
                                 <characteristic
-                                    id="char-mount-giant-eagle-special"
+                                    id="char-mount-general-giant-eagle-special"
                                     typeId="char-special"
                                     name="Special Rules">
 Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attack is added to those of its rider.
@@ -251,7 +251,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
                     <costs>
                         <cost
-                            id="cost-mount-chariot"
+                            id="cost-mount-general-chariot"
                             typeId="points"
                             name="pts"
                             value="5.0"/>
@@ -389,13 +389,13 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
                             <characteristics>
                                 <characteristic
-                                    id="char-mount-giant-eagle-attacks"
+                                    id="char-mount-hero-giant-eagle-attacks"
                                     typeId="char-att"
                                     name="Attacks">+2
                                 </characteristic>
 
                                 <characteristic
-                                    id="char-mount-giant-eagle-special"
+                                    id="char-mount-hero-giant-eagle-special"
                                     typeId="char-special"
                                     name="Special Rules">
 Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle can fly increasing its rider‘s move from 60 to 100cm. An extra +2 Attacks are added to those of its rider.
@@ -406,7 +406,7 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
 
                     <costs>
                         <cost
-                            id="cost-mount-giant-eagle"
+                            id="cost-mount-hero-giant-eagle"
                             typeId="points"
                             name="pts"
                             value="20.0"/>
@@ -425,7 +425,7 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
 
                     <profiles>
                         <profile
-                            id="profile-mount-dragon"
+                            id="profile-mount-hero-dragon"
                             name="Dragon"
                             hidden="false"
                             typeId="unit-profile"
@@ -433,13 +433,13 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
 
                             <characteristics>
                                 <characteristic
-                                    id="char-mount-dragon-attacks"
+                                    id="char-mount-hero-dragon-attacks"
                                     typeId="char-att"
                                     name="Attacks">+3
                                 </characteristic>
 
                                 <characteristic
-                                    id="char-mount-dragon-special"
+                                    id="char-mount-hero-dragon-special"
                                     typeId="char-special"
                                     name="Special Rules">
 Dragons. Dragons can fly. Dragon Rider units and any other units that include a Dragon-riding character cause terror in their enemies.
@@ -457,7 +457,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
 
                     <costs>
                         <cost
-                            id="cost-mount-dragon"
+                            id="cost-mount-hero-dragon"
                             typeId="points"
                             name="pts"
                             value="100.0"/>
@@ -476,7 +476,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
 
                     <profiles>
                         <profile
-                            id="profile-mount-chariot"
+                            id="profile-mount-hero-chariot"
                             name="Chariot"
                             hidden="false"
                             typeId="unit-profile"
@@ -484,13 +484,13 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
 
                             <characteristics>
                                 <characteristic
-                                    id="char-mount-chariot-attacks"
+                                    id="char-mount-hero-chariot-attacks"
                                     typeId="char-att"
                                     name="Attacks">+1
                                 </characteristic>
 
                                 <characteristic
-                                    id="char-mount-giant-eagle-special"
+                                    id="char-mount-hero-chariot-special"
                                     typeId="char-special"
                                     name="Special Rules">
 Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attack is added to those of its rider.
@@ -501,7 +501,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
                     <costs>
                         <cost
-                            id="cost-mount-chariot"
+                            id="cost-mount-hero-chariot"
                             typeId="points"
                             name="pts"
                             value="5.0"/>
@@ -638,7 +638,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
                     <profiles>
                         <profile
-                            id="profile-mount-giant-eagle"
+                            id="profile-mount-mage-giant-eagle"
                             name="Giant Eagle"
                             hidden="false"
                             typeId="unit-profile"
@@ -646,13 +646,13 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
                             <characteristics>
                                 <characteristic
-                                    id="char-mount-giant-eagle-attacks"
+                                    id="char-mount-mage-giant-eagle-attacks"
                                     typeId="char-att"
                                     name="Attacks">+2
                                 </characteristic>
 
                                 <characteristic
-                                    id="char-mount-giant-eagle-special"
+                                    id="char-mount-mage-giant-eagle-special"
                                     typeId="char-special"
                                     name="Special Rules">
 Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle can fly increasing its rider‘s move from 60 to 100cm. An extra +2 Attacks are added to those of its rider.
@@ -663,7 +663,7 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
 
                     <costs>
                         <cost
-                            id="cost-mount-giant-eagle"
+                            id="cost-mount-mage-giant-eagle"
                             typeId="points"
                             name="pts"
                             value="20.0"/>
@@ -682,7 +682,7 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
 
                     <profiles>
                         <profile
-                            id="profile-mount-dragon"
+                            id="profile-mount-mage-dragon"
                             name="Dragon"
                             hidden="false"
                             typeId="unit-profile"
@@ -690,13 +690,13 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
 
                             <characteristics>
                                 <characteristic
-                                    id="char-mount-dragon-attacks"
+                                    id="char-mount-mage-dragon-attacks"
                                     typeId="char-att"
                                     name="Attacks">+3
                                 </characteristic>
 
                                 <characteristic
-                                    id="char-mount-dragon-special"
+                                    id="char-mount-mage-dragon-special"
                                     typeId="char-special"
                                     name="Special Rules">
 Dragons. Dragons can fly. Dragon Rider units and any other units that include a Dragon-riding character cause terror in their enemies.
@@ -714,7 +714,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
 
                     <costs>
                         <cost
-                            id="cost-mount-dragon"
+                            id="cost-mount-mage-dragon"
                             typeId="points"
                             name="pts"
                             value="100.0"/>
@@ -733,7 +733,7 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
 
                     <profiles>
                         <profile
-                            id="profile-mount-chariot"
+                            id="profile-mount-mage-chariot"
                             name="Chariot"
                             hidden="false"
                             typeId="unit-profile"
@@ -741,13 +741,13 @@ Dragons can make a fiery breath. This applies both to a unit of Dragon Riders an
 
                             <characteristics>
                                 <characteristic
-                                    id="char-mount-chariot-attacks"
+                                    id="char-mount-mage-chariot-attacks"
                                     typeId="char-att"
                                     name="Attacks">+1
                                 </characteristic>
 
                                 <characteristic
-                                    id="char-mount-giant-eagle-special"
+                                    id="char-mount-mage-chariot-special"
                                     typeId="char-special"
                                     name="Special Rules">
 Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attack is added to those of its rider.
@@ -758,7 +758,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
                     <costs>
                         <cost
-                            id="cost-mount-chariot"
+                            id="cost-mount-mage-chariot"
                             typeId="points"
                             name="pts"
                             value="5.0"/>
