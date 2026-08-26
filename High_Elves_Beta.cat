@@ -355,7 +355,14 @@ Giant Eagle Mount. Generals, Wizards and Heroes can ride a Giant Eagle. An Eagle
     <!-- ========================= -->
     <!--    MOUNT DRAGON           -->
     <!-- ========================= -->
-                
+<entryLink
+    id="link-general-dragon"
+    name="Dragon"
+    hidden="false"
+    collective="false"
+    import="true"
+    type="selectionEntry"
+    targetId="global-mount-dragon"/>                
     <!-- ========================= -->
     <!--    MOUNT CHARIOT          -->
     <!-- ========================= -->
