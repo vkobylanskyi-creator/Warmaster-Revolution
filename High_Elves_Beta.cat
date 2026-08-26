@@ -344,7 +344,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 <!-- ========================= -->
 <selectionEntryGroups>
     <selectionEntryGroup 
-        id="general-mounts" 
+        id="hero-mounts" 
         name="Mount"
         hidden="false"
         collective="false"
@@ -352,7 +352,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
         
         <constraints>
             <constraint
-                id="general-mount-min"
+                id="hero-mount-min"
                 field="selections"
                 scope="parent"
                 value="0"
@@ -360,7 +360,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                 percentValue="false"/>
 
                 <constraint
-                id="general-mount-max"
+                id="hero-mount-max"
                 field="selections"
                 scope="parent"
                 value="1"
@@ -373,7 +373,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
     <!-- ========================= -->
             <selectionEntries>
                 <selectionEntry
-                    id="mount-giant-eagle"
+                    id="mount-hero-eagle"
                     name="Giant Eagle"
                     hidden="false"
                     type="upgrade"
@@ -381,7 +381,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
                     <profiles>
                         <profile
-                            id="profile-mount-giant-eagle"
+                            id="profile-mount-hero-eagle"
                             name="Giant Eagle"
                             hidden="false"
                             typeId="unit-profile"
@@ -601,7 +601,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 <!-- ========================= -->
 <selectionEntryGroups>
     <selectionEntryGroup 
-        id="general-mounts" 
+        id="mage-mounts" 
         name="Mount"
         hidden="false"
         collective="false"
@@ -609,7 +609,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
         
         <constraints>
             <constraint
-                id="general-mount-min"
+                id="mage-mount-min"
                 field="selections"
                 scope="parent"
                 value="0"
@@ -617,7 +617,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                 percentValue="false"/>
 
                 <constraint
-                id="general-mount-max"
+                id="mage-mount-max"
                 field="selections"
                 scope="parent"
                 value="1"
@@ -1703,7 +1703,7 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
 
 
 
-        
+
 
     <entryLinks>
 
