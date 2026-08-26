@@ -918,7 +918,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
         <selectionEntry
             id="unit-swordmasters"
-            name="Swordmasters [BETA]"
+            name="[BETA] Swordmasters"
             hidden="false"
             type="unit"
             import="true">
@@ -926,7 +926,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
             <profiles>
                 <profile
                     id="prof-swordmasters"
-                    name="Swordmasters [BETA]"
+                    name="[BETA] Swordmasters"
                     hidden="false"
                     typeId="unit-profile"
                     typeName="Unit Profile">
@@ -983,7 +983,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 
         <selectionEntry
             id="unit-phoenix-guard"
-            name="Phoenix Guard [BETA]"
+            name="[BETA] Phoenix Guard"
             hidden="false"
             type="unit"
             import="true">
@@ -991,7 +991,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
             <profiles>
                 <profile
                     id="prof-phoenix-guard"
-                    name="Phoenix Guard [BETA]"
+                    name="[BETA] Phoenix Guard"
                     hidden="false"
                     typeId="unit-profile"
                     typeName="Unit Profile">
@@ -1191,7 +1191,7 @@ Phoenix Guard. Phoenix Guard are unaffected by enemies that cause Terror in comb
 
          <selectionEntry
                 id="unit-dragon-princes"
-                name="Dragon Princes [BETA]"
+                name="[BETA] Dragon Princes"
                 hidden="false"
                 type="unit"
                 import="true">
@@ -1199,7 +1199,7 @@ Phoenix Guard. Phoenix Guard are unaffected by enemies that cause Terror in comb
                 <profiles>
                     <profile
                         id="prof-dragon-princes"
-                        name="Dragon Princes [BETA]"
+                        name="[BETA] Dragon Princes"
                         hidden="false"
                         typeId="unit-profile"
                         typeName="Unit Profile">
@@ -1578,184 +1578,6 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
 </selectionEntry>
 
         </sharedSelectionEntries>
-
-    <!-- ========================= -->
-    <!-- BATTLE SIZE               -->
-    <!-- ========================= -->
-
-    <sharedSelectionEntryGroups>
-
-<selectionEntryGroup
-    id="beta-options-group"
-    name="Beta Rules"
-    hidden="false"
-    collective="false"
-    import="true">
-
-    <constraints>
-        <constraint
-            id="beta-option-min"
-            field="selections"
-            scope="parent"
-            value="0"
-            type="min"
-            percentValue="false"/>
-
-        <constraint
-            id="beta-option-max"
-            field="selections"
-            scope="parent"
-            value="1"
-            type="max"
-            percentValue="false"/>
-    </constraints>
-
-    <selectionEntries>
-
-        <selectionEntry
-            id="beta-enabled"
-            name="Enable Beta Units"
-            hidden="false"
-            type="upgrade"
-            import="true">
-
-            <costs>
-                <cost
-                    id="cost-beta-enabled"
-                    typeId="points"
-                    name="pts"
-                    value="0.0"/>
-            </costs>
-
-        </selectionEntry>
-
-    </selectionEntries>
-
-</selectionEntryGroup>
-
-
-
-
-        <selectionEntryGroup
-            id="battle-size-group"
-            name="Battle Size"
-            hidden="false"
-            collective="false"
-            import="true">
-
-<constraints>
-
-    <constraint
-        id="battle-size-min"
-        field="selections"
-        scope="parent"
-        value="1"
-        type="min"
-        percentValue="false"/>
-
-    <constraint
-        id="battle-size-max"
-        field="selections"
-        scope="parent"
-        value="1"
-        type="max"
-        percentValue="false"/>
-
-</constraints>
-
-            <selectionEntries>
-
-<selectionEntry
-    id="battle-small"
-    name="1000 pts — Small Battle"
-    hidden="false"
-    type="upgrade"
-    import="true">
-
-    <costs>
-        <cost
-            id="cost-battle-small"
-            typeId="points"
-            name="pts"
-            value="0.0"/>
-    </costs>
-
-</selectionEntry>
-
-                <selectionEntry
-                    id="battle-standard"
-                    name="2000 pts — Standard Battle"
-                    hidden="false"
-                    type="upgrade"
-                    import="true">
-
-                    <costs>
-                        <cost
-                            id="cost-battle-standard"
-                            typeId="points"
-                            name="pts"
-                            value="0.0"/>
-                    </costs>
-
-                </selectionEntry>
-
-                <selectionEntry
-                    id="battle-large"
-                    name="3000 pts — Large Battle"
-                    hidden="false"
-                    type="upgrade"
-                    import="true">
-
-                    <costs>
-                        <cost
-                            id="cost-battle-large"
-                            typeId="points"
-                            name="pts"
-                            value="0.0"/>
-                    </costs>
-
-                </selectionEntry>
-
-                <selectionEntry
-                    id="battle-grand"
-                    name="4000 pts — Grand Battle"
-                    hidden="false"
-                    type="upgrade"
-                    import="true">
-
-                    <costs>
-                        <cost
-                            id="cost-battle-grand"
-                            typeId="points"
-                            name="pts"
-                            value="0.0"/>
-                    </costs>
-
-                </selectionEntry>
-
-                <selectionEntry
-                    id="battle-massive"
-                    name="5000 pts — Massive Battle"
-                    hidden="false"
-                    type="upgrade"
-                    import="true">
-
-                    <costs>
-                        <cost
-                            id="cost-battle-massive"
-                            typeId="points"
-                            name="pts"
-                            value="0.0"/>
-                    </costs>
-
-                </selectionEntry>
-
-            </selectionEntries>
-
-        </selectionEntryGroup>
-
-    </sharedSelectionEntryGroups>
-
 
     <entryLinks>
 
