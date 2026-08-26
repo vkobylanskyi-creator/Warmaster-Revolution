@@ -1579,6 +1579,132 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
 
         </sharedSelectionEntries>
 
+    <sharedSelectionEntryGroups>
+
+        <selectionEntryGroup
+            id="battle-size-group"
+            name="Battle Size"
+            hidden="false"
+            collective="false"
+            import="true">
+
+            <selectionEntries>
+
+                <selectionEntry
+                    id="battle-size-1000"
+                    name="1000 pts"
+                    hidden="false"
+                    type="upgrade"
+                    import="true">
+
+                    <costs>
+                        <cost
+                            id="battle-size-1000-cost"
+                            typeId="points"
+                            name="pts"
+                            value="0.0"/>
+                    </costs>
+
+                </selectionEntry>
+
+                <selectionEntry
+                    id="battle-size-2000"
+                    name="2000 pts"
+                    hidden="false"
+                    type="upgrade"
+                    import="true">
+
+                    <costs>
+                        <cost
+                            id="battle-size-2000-cost"
+                            typeId="points"
+                            name="pts"
+                            value="0.0"/>
+                    </costs>
+
+                </selectionEntry>
+
+                <selectionEntry
+                    id="battle-size-3000"
+                    name="3000 pts"
+                    hidden="false"
+                    type="upgrade"
+                    import="true">
+
+                    <costs>
+                        <cost
+                            id="battle-size-3000-cost"
+                            typeId="points"
+                            name="pts"
+                            value="0.0"/>
+                    </costs>
+
+                </selectionEntry>
+
+                <selectionEntry
+                    id="battle-size-4000"
+                    name="4000 pts"
+                    hidden="false"
+                    type="upgrade"
+                    import="true">
+
+                    <costs>
+                        <cost
+                            id="battle-size-4000-cost"
+                            typeId="points"
+                            name="pts"
+                            value="0.0"/>
+                    </costs>
+
+                </selectionEntry>
+
+                <selectionEntry
+                    id="battle-size-5000"
+                    name="5000 pts"
+                    hidden="false"
+                    type="upgrade"
+                    import="true">
+
+                    <costs>
+                        <cost
+                            id="battle-size-5000-cost"
+                            typeId="points"
+                            name="pts"
+                            value="0.0"/>
+                    </costs>
+
+                </selectionEntry>
+
+            </selectionEntries>
+
+            <constraints>
+
+                <constraint
+                    id="battle-size-min"
+                    field="selections"
+                    scope="parent"
+                    value="1"
+                    type="min"
+                    percentValue="false"/>
+
+                <constraint
+                    id="battle-size-max"
+                    field="selections"
+                    scope="parent"
+                    value="1"
+                    type="max"
+                    percentValue="false"/>
+
+            </constraints>
+
+        </selectionEntryGroup>
+
+    </sharedSelectionEntryGroups>
+
+
+
+        
+
     <entryLinks>
 
         <entryLink
