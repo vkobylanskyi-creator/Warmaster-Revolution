@@ -913,6 +913,208 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
             </selectionEntry>
 
         <!-- ========================= -->
+        <!--    BETA SWORDMASTERS       -->
+        <!-- ========================= -->
+
+        <selectionEntry
+            id="unit-beta-swordmasters"
+            name="Swordmasters"
+            hidden="true"
+            type="unit"
+            import="true">
+
+            <profiles>
+
+                <profile
+                    id="prof-beta-swordmasters"
+                    name="Swordmasters"
+                    hidden="false"
+                    typeId="unit-profile"
+                    typeName="Unit Profile">
+
+                    <characteristics>
+
+                        <characteristic
+                            id="char-value-att-beta-swordmasters"
+                            typeId="char-att"
+                            name="Attacks">4</characteristic>
+
+                        <characteristic
+                            id="char-value-hits-beta-swordmasters"
+                            typeId="char-hits"
+                            name="Hits">3</characteristic>
+
+                        <characteristic
+                            id="char-value-arm-beta-swordmasters"
+                            typeId="char-arm"
+                            name="Armor">5+</characteristic>
+
+                        <characteristic
+                            id="char-value-size-beta-swordmasters"
+                            typeId="char-size"
+                            name="Size">3</characteristic>
+
+                    </characteristics>
+
+                </profile>
+
+            </profiles>
+
+            <costs>
+
+                <cost
+                    id="cost-beta-swordmasters"
+                    typeId="points"
+                    name="pts"
+                    value="80.0"/>
+
+            </costs>
+
+            <categoryLinks>
+
+                <categoryLink
+                    id="category-beta-swordmasters"
+                    name="Infantry"
+                    targetId="cat-inf"
+                    primary="true"
+                    hidden="false"/>
+
+            </categoryLinks>
+
+            <modifiers>
+
+                <modifier
+                    id="modifier-beta-swordmasters"
+                    type="set"
+                    field="hidden"
+                    value="false">
+
+                    <conditions>
+
+                        <condition
+                            field="selections"
+                            scope="roster"
+                            value="1"
+                            percentValue="false"
+                            shared="false"
+                            includeChildSelections="true"
+                            includeChildForces="false"
+                            childId="beta-enabled"
+                            type="instanceOf"/>
+
+                    </conditions>
+
+                </modifier>
+
+            </modifiers>
+
+        </selectionEntry>
+
+
+        <!-- ========================= -->
+        <!--    BETA PHOENIX GUARD     -->
+        <!-- ========================= -->
+
+        <selectionEntry
+            id="unit-beta-phoenix-guard"
+            name="Phoenix Guard"
+            hidden="true"
+            type="unit"
+            import="true">
+
+            <profiles>
+
+                <profile
+                    id="prof-beta-phoenix-guard"
+                    name="Phoenix Guard"
+                    hidden="false"
+                    typeId="unit-profile"
+                    typeName="Unit Profile">
+
+                    <characteristics>
+
+                        <characteristic
+                            id="char-value-att-beta-phoenix-guard"
+                            typeId="char-att"
+                            name="Attacks">3</characteristic>
+
+                        <characteristic
+                            id="char-value-hits-beta-phoenix-guard"
+                            typeId="char-hits"
+                            name="Hits">3</characteristic>
+
+                        <characteristic
+                            id="char-value-arm-beta-phoenix-guard"
+                            typeId="char-arm"
+                            name="Armor">4+</characteristic>
+
+                        <characteristic
+                            id="char-value-size-beta-phoenix-guard"
+                            typeId="char-size"
+                            name="Size">3</characteristic>
+
+                        <characteristic
+                            id="char-value-special-beta-phoenix-guard"
+                            typeId="char-special"
+                            name="Special Rules">Phoenix Guard. Unaffected by enemies that cause Terror in combat, so they do not suffer the usual -1 Attack modifier.</characteristic>
+
+                    </characteristics>
+
+                </profile>
+
+            </profiles>
+
+            <costs>
+
+                <cost
+                    id="cost-beta-phoenix-guard"
+                    typeId="points"
+                    name="pts"
+                    value="90.0"/>
+
+            </costs>
+
+            <categoryLinks>
+
+                <categoryLink
+                    id="category-beta-phoenix-guard"
+                    name="Infantry"
+                    targetId="cat-inf"
+                    primary="true"
+                    hidden="false"/>
+
+            </categoryLinks>
+
+            <modifiers>
+
+                <modifier
+                    id="modifier-beta-phoenix-guard"
+                    type="set"
+                    field="hidden"
+                    value="false">
+
+                    <conditions>
+
+                        <condition
+                            field="selections"
+                            scope="roster"
+                            value="1"
+                            percentValue="false"
+                            shared="false"
+                            includeChildSelections="true"
+                            includeChildForces="false"
+                            childId="beta-enabled"
+                            type="instanceOf"/>
+
+                    </conditions>
+
+                </modifier>
+
+            </modifiers>
+
+        </selectionEntry>
+
+        <!-- ========================= -->
         <!--    SILVER HELMS           -->
         <!-- ========================= -->
 
@@ -1047,6 +1249,109 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                         hidden="false"/>
                 </categoryLinks>
             </selectionEntry>
+
+                    <!-- ========================= -->
+        <!--    BETA DRAGON PRINCES     -->
+        <!-- ========================= -->
+
+        <selectionEntry
+            id="unit-beta-dragon-princes"
+            name="Dragon Princes"
+            hidden="true"
+            type="unit"
+            import="true">
+
+            <profiles>
+
+                <profile
+                    id="prof-beta-dragon-princes"
+                    name="Dragon Princes"
+                    hidden="false"
+                    typeId="unit-profile"
+                    typeName="Unit Profile">
+
+                    <characteristics>
+
+                        <characteristic
+                            id="char-value-att-beta-dragon-princes"
+                            typeId="char-att"
+                            name="Attacks">4</characteristic>
+
+                        <characteristic
+                            id="char-value-hits-beta-dragon-princes"
+                            typeId="char-hits"
+                            name="Hits">3</characteristic>
+
+                        <characteristic
+                            id="char-value-arm-beta-dragon-princes"
+                            typeId="char-arm"
+                            name="Armor">4+</characteristic>
+
+                        <characteristic
+                            id="char-value-size-beta-dragon-princes"
+                            typeId="char-size"
+                            name="Size">3</characteristic>
+
+                        <characteristic
+                            id="char-value-special-beta-dragon-princes"
+                            typeId="char-special"
+                            name="Special Rules">Dragon Princes. May re-roll any failed Armour saves made against fire-based attacks. Only one unit per 1,000 points.</characteristic>
+
+                    </characteristics>
+
+                </profile>
+
+            </profiles>
+
+            <costs>
+
+                <cost
+                    id="cost-beta-dragon-princes"
+                    typeId="points"
+                    name="pts"
+                    value="165.0"/>
+
+            </costs>
+
+            <categoryLinks>
+
+                <categoryLink
+                    id="category-beta-dragon-princes"
+                    name="Cavalry"
+                    targetId="cat-cav"
+                    primary="true"
+                    hidden="false"/>
+
+            </categoryLinks>
+
+            <modifiers>
+
+                <modifier
+                    id="modifier-beta-dragon-princes"
+                    type="set"
+                    field="hidden"
+                    value="false">
+
+                    <conditions>
+
+                        <condition
+                            field="selections"
+                            scope="roster"
+                            value="1"
+                            percentValue="false"
+                            shared="false"
+                            includeChildSelections="true"
+                            includeChildForces="false"
+                            childId="beta-enabled"
+                            type="instanceOf"/>
+
+                    </conditions>
+
+                </modifier>
+
+            </modifiers>
+
+        </selectionEntry>
 
         <!-- ========================= -->
         <!--    CHARIOTS               -->
