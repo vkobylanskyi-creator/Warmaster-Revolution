@@ -1250,8 +1250,8 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                 </categoryLinks>
             </selectionEntry>
 
-                    <!-- ========================= -->
-        <!--    BETA DRAGON PRINCES     -->
+        <!-- ========================= -->
+        <!--    BETA DRAGON PRINCES    -->
         <!-- ========================= -->
 
         <selectionEntry
@@ -1651,6 +1651,27 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
                 </categoryLinks>
             </selectionEntry>
 
+<!-- ========================= -->
+<!-- BETA SWITCH               -->
+<!-- ========================= -->
+
+<selectionEntry
+    id="beta-enabled"
+    name="Enable Beta Units"
+    hidden="false"
+    type="upgrade"
+    import="true">
+
+    <costs>
+        <cost
+            id="cost-beta-enabled"
+            typeId="points"
+            name="pts"
+            value="0.0"/>
+    </costs>
+
+</selectionEntry>
+
         </sharedSelectionEntries>
 
     <!-- ========================= -->
@@ -1658,50 +1679,6 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
     <!-- ========================= -->
 
     <sharedSelectionEntryGroups>
-
-        <selectionEntryGroup
-            id="beta-options-group"
-            name="Beta Rules"
-            hidden="false"
-            collective="false"
-            import="true">
-
-            <constraints>
-                <constraint
-                    id="beta-option-min"
-                    field="selections"
-                    scope="parent"
-                    value="0"
-                    type="min"
-                    percentValue="false"/>
-
-                <constraint
-                    id="beta-option-max"
-                    field="selections"
-                    scope="parent"
-                    value="1"
-                    type="max"
-                    percentValue="false"/>
-            </constraints>
-
-            <selectionEntries>
-                <selectionEntry
-                    id="beta-enabled"
-                    name="Enable Beta Units"
-                    hidden="false"
-                    type="upgrade"
-                    import="true">
-
-                    <costs>
-                        <cost
-                            id="cost-beta-enabled"
-                            typeId="points"
-                            name="pts"
-                            value="0.0"/>
-                    </costs>
-                </selectionEntry>
-            </selectionEntries>
-        </selectionEntryGroup>
 
         <selectionEntryGroup
             id="battle-size-group"
@@ -1825,16 +1802,6 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
 
 
     <entryLinks>
-        <entryLink
-            id="link-beta-options"
-            name="Beta Rules"
-            hidden="false"
-            collective="false"
-            import="true"
-            type="selectionEntryGroup"
-            targetId="beta-options-group"/>
-
-
 
         <entryLink
             id="link-battle-size"
