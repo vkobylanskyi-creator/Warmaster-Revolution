@@ -1888,6 +1888,24 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
             targetId="unit-archers"
             import="true"/>
 
+                <entryLink
+            id="link-beta-swordmasters"
+            name="Swordmasters"
+            hidden="true"
+            collective="false"
+            import="true"
+            type="selectionEntry"
+            targetId="unit-beta-swordmasters"/>
+
+        <entryLink
+            id="link-beta-phoenix-guard"
+            name="Phoenix Guard"
+            hidden="true"
+            collective="false"
+            import="true"
+            type="selectionEntry"
+            targetId="unit-beta-phoenix-guard"/>
+
         <entryLink
             id="link-silver"
             name="Silver Helms"
@@ -1903,6 +1921,15 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
             type="selectionEntry"
             targetId="unit-reavers"
             import="true"/>
+
+        <entryLink
+            id="link-beta-dragon-princes"
+            name="Dragon Princes"
+            hidden="true"
+            collective="false"
+            import="true"
+            type="selectionEntry"
+            targetId="unit-beta-dragon-princes"/>
 
         <entryLink
             id="link-chariots"
