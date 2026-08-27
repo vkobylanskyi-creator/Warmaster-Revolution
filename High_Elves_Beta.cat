@@ -1773,9 +1773,440 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
 
 </selectionEntry>
 
+
+
+
+
+
+
+
+
+        <!-- ========================= -->
+        <!--    MAGIC STANDARDS         -->
+        <!-- ========================= -->
+
+        <selectionEntry
+            id="magic-battle-banner"
+            name="Battle Banner"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-battle-banner"
+                    typeId="points"
+                    name="pts"
+                    value="30.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-shielding-superior"
+            name="Banner of Shielding — Superior"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-shielding-superior"
+                    typeId="points"
+                    name="pts"
+                    value="30.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-shielding-major"
+            name="Banner of Shielding — Major"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-shielding-major"
+                    typeId="points"
+                    name="pts"
+                    value="20.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-shielding-minor"
+            name="Banner of Shielding — Minor"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-shielding-minor"
+                    typeId="points"
+                    name="pts"
+                    value="10.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-fortitude"
+            name="Banner of Fortitude"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-fortitude"
+                    typeId="points"
+                    name="pts"
+                    value="30.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-steadfastness-superior"
+            name="Banner of Steadfastness — Superior"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-steadfastness-superior"
+                    typeId="points"
+                    name="pts"
+                    value="15.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-steadfastness-major"
+            name="Banner of Steadfastness — Major"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-steadfastness-major"
+                    typeId="points"
+                    name="pts"
+                    value="10.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-steadfastness-minor"
+            name="Banner of Steadfastness — Minor"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-steadfastness-minor"
+                    typeId="points"
+                    name="pts"
+                    value="5.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-fortune-superior"
+            name="Banner of Fortune — Superior"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-fortune-superior"
+                    typeId="points"
+                    name="pts"
+                    value="15.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-fortune-major"
+            name="Banner of Fortune — Major"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-fortune-major"
+                    typeId="points"
+                    name="pts"
+                    value="10.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-fortune-minor"
+            name="Banner of Fortune — Minor"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-fortune-minor"
+                    typeId="points"
+                    name="pts"
+                    value="5.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <!-- ========================= -->
+        <!--    MAGIC WEAPONS           -->
+        <!-- ========================= -->
+
+        <selectionEntry
+            id="magic-sword-destruction"
+            name="Sword of Destruction"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-sword-destruction"
+                    typeId="points"
+                    name="pts"
+                    value="10.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-sword-fate"
+            name="Sword of Fate"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-sword-fate"
+                    typeId="points"
+                    name="pts"
+                    value="5.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-sword-cleaving"
+            name="Sword of Cleaving"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-sword-cleaving"
+                    typeId="points"
+                    name="pts"
+                    value="10.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-sword-might"
+            name="Sword of Might"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-sword-might"
+                    typeId="points"
+                    name="pts"
+                    value="10.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <!-- ========================= -->
+        <!--    DEVICES OF POWER        -->
+        <!-- ========================= -->
+
+        <selectionEntry
+            id="magic-crown-command"
+            name="Crown of Command"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-crown-command"
+                    typeId="points"
+                    name="pts"
+                    value="70.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-helm-dominion"
+            name="Helm of Dominion"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-helm-dominion"
+                    typeId="points"
+                    name="pts"
+                    value="40.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-orb-majesty"
+            name="Orb of Majesty"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-orb-majesty"
+                    typeId="points"
+                    name="pts"
+                    value="30.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-ring-magic"
+            name="Ring of Magic"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-ring-magic"
+                    typeId="points"
+                    name="pts"
+                    value="30.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-staff-spellbinding"
+            name="Staff of Spellbinding"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-staff-spellbinding"
+                    typeId="points"
+                    name="pts"
+                    value="30.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-sceptre-sovereignty"
+            name="Sceptre of Sovereignty"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-sceptre-sovereignty"
+                    typeId="points"
+                    name="pts"
+                    value="20.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-scroll-dispelling"
+            name="Scroll of Dispelling"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-scroll-dispelling"
+                    typeId="points"
+                    name="pts"
+                    value="20.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-wand-power"
+            name="Wand of Power"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-wand-power"
+                    typeId="points"
+                    name="pts"
+                    value="10.0"/>
+            </costs>
+        </selectionEntry>
+
+
+        <selectionEntry
+            id="magic-rod-repetition"
+            name="Rod of Repetition"
+            hidden="false"
+            type="upgrade"
+            import="true">
+
+            <costs>
+                <cost
+                    id="cost-magic-rod-repetition"
+                    typeId="points"
+                    name="pts"
+                    value="10.0"/>
+            </costs>
+        </selectionEntry>
+
         </sharedSelectionEntries>
 
     <sharedSelectionEntryGroups>
+
+        <!-- ========================= -->
+        <!--    BATTLE SIZE            -->
+        <!-- ========================= -->        
 
         <selectionEntryGroup
             id="battle-size-group"
