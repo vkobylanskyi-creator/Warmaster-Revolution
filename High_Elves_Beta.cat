@@ -455,6 +455,44 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                 </selectionEntry>
             </selectionEntries>
     </selectionEntryGroup>
+<selectionEntryGroups>
+
+    <!-- ========================= -->
+    <!-- MAGIC WEAPONS              -->
+    <!-- ========================= -->
+
+    <selectionEntryGroup
+        id="general-magic-weapons"
+        name="Magic Weapons"
+        hidden="false"
+        collective="false"
+        import="true">
+
+        <selectionEntries>
+            <selectionEntry
+                id="general-sword-destruction"
+                name="Sword of Destruction"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="general-cost-sword-destruction"
+                        typeId="points"
+                        name="pts"
+                        value="10.0"/>
+                </costs>
+
+            </selectionEntry>
+        </selectionEntries>
+
+    </selectionEntryGroup>
+
+</selectionEntryGroups>
+
+
+    
 </selectionEntryGroups>
     </selectionEntry>
 
