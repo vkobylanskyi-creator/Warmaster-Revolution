@@ -482,6 +482,55 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                         name="pts"
                         value="10.0"/>
                 </costs>
+            </selectionEntry>
+
+            <selectionEntry
+                id="general-sword-fate"
+                name="Sword of Fate"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="general-cost-sword-fate"
+                        typeId="points"
+                        name="pts"
+                        value="5.0"/>
+                </costs>
+            </selectionEntry>
+
+            <selectionEntry
+                id="general-sword-cleaving"
+                name="Sword of Cleaving"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="general-cost-sword-cleaving"
+                        typeId="points"
+                        name="pts"
+                        value="5.0"/>
+                </costs>
+
+            </selectionEntry>
+
+            <selectionEntry
+                id="general-sword-might"
+                name="Sword of Might"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="general-cost-sword-might"
+                        typeId="points"
+                        name="pts"
+                        value="5.0"/>
+                </costs>
 
             </selectionEntry>
         </selectionEntries>
