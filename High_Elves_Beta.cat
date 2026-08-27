@@ -1895,6 +1895,232 @@ Elven Bolt Thrower. Rules for the Elven Bolt Thrower are described in the Artill
 
         </selectionEntryGroup>
 
+        <!-- ========================= -->
+        <!--    MAGIC STANDARDS         -->
+        <!-- ========================= -->
+
+        <selectionEntryGroup
+            id="magic-standards-group"
+            name="Magic Standards"
+            hidden="false"
+            collective="false"
+            import="true">
+
+            <entryLinks>
+
+                <entryLink
+                    id="link-battle-banner"
+                    name="Battle Banner"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-battle-banner"/>
+
+                <entryLink
+                    id="link-shielding-superior"
+                    name="Banner of Shielding — Superior"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-shielding-superior"/>
+
+                <entryLink
+                    id="link-shielding-major"
+                    name="Banner of Shielding — Major"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-shielding-major"/>
+
+                <entryLink
+                    id="link-shielding-minor"
+                    name="Banner of Shielding — Minor"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-shielding-minor"/>
+
+                <entryLink
+                    id="link-fortitude"
+                    name="Banner of Fortitude"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-fortitude"/>
+
+                <entryLink
+                    id="link-steadfastness-superior"
+                    name="Banner of Steadfastness — Superior"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-steadfastness-superior"/>
+
+                <entryLink
+                    id="link-steadfastness-major"
+                    name="Banner of Steadfastness — Major"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-steadfastness-major"/>
+
+                <entryLink
+                    id="link-steadfastness-minor"
+                    name="Banner of Steadfastness — Minor"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-steadfastness-minor"/>
+
+                <entryLink
+                    id="link-fortune-superior"
+                    name="Banner of Fortune — Superior"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-fortune-superior"/>
+
+                <entryLink
+                    id="link-fortune-major"
+                    name="Banner of Fortune — Major"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-fortune-major"/>
+
+                <entryLink
+                    id="link-fortune-minor"
+                    name="Banner of Fortune — Minor"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-fortune-minor"/>
+
+            </entryLinks>
+        </selectionEntryGroup>
+
+
+
+
+
+
+
+
+                <selectionEntryGroup
+            id="magic-weapons-group"
+            name="Magic Weapons"
+            hidden="false"
+            collective="false"
+            import="true">
+
+            <entryLinks>
+
+                <entryLink
+                    id="link-sword-destruction"
+                    name="Sword of Destruction"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-sword-destruction"/>
+
+                <entryLink
+                    id="link-sword-fate"
+                    name="Sword of Fate"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-sword-fate"/>
+
+                <entryLink
+                    id="link-sword-cleaving"
+                    name="Sword of Cleaving"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-sword-cleaving"/>
+
+                <entryLink
+                    id="link-sword-might"
+                    name="Sword of Might"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-sword-might"/>
+
+            </entryLinks>
+        </selectionEntryGroup>
+
+
+
+
+
+
+
+
+
+                <selectionEntryGroup
+            id="magic-weapons-group"
+            name="Magic Weapons"
+            hidden="false"
+            collective="false"
+            import="true">
+
+            <entryLinks>
+
+                <entryLink
+                    id="link-sword-destruction"
+                    name="Sword of Destruction"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-sword-destruction"/>
+
+                <entryLink
+                    id="link-sword-fate"
+                    name="Sword of Fate"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-sword-fate"/>
+
+                <entryLink
+                    id="link-sword-cleaving"
+                    name="Sword of Cleaving"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-sword-cleaving"/>
+
+                <entryLink
+                    id="link-sword-might"
+                    name="Sword of Might"
+                    hidden="false"
+                    collective="false"
+                    import="true"
+                    type="selectionEntry"
+                    targetId="magic-sword-might"/>
+
+            </entryLinks>
+        </selectionEntryGroup>
+
     </sharedSelectionEntryGroups>
 
 
