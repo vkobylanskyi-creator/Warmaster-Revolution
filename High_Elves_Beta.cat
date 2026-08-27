@@ -455,7 +455,6 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                 </selectionEntry>
             </selectionEntries>
     </selectionEntryGroup>
-<selectionEntryGroups>
 
     <!-- ========================= -->
     <!-- MAGIC WEAPONS              -->
@@ -492,8 +491,8 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
 </selectionEntryGroups>
 
 
-    
-</selectionEntryGroups>
+
+
     </selectionEntry>
 
         <!-- ========================= -->
