@@ -522,7 +522,7 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                         id="general-cost-sword-cleaving"
                         typeId="points"
                         name="pts"
-                        value="5.0"/>
+                        value="10.0"/>
                 </costs>
 
             </selectionEntry>
@@ -539,7 +539,98 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                         id="general-cost-sword-might"
                         typeId="points"
                         name="pts"
-                        value="5.0"/>
+                        value="10.0"/>
+                </costs>
+
+            </selectionEntry>
+        </selectionEntries>
+
+    </selectionEntryGroup>
+
+    <!-- ========================= -->
+    <!-- DEVICES OF POWER          -->
+    <!-- ========================= -->
+
+    <selectionEntryGroup
+        id="general-devices-of-power"
+        name="Devices of Power"
+        hidden="false"
+        collective="false"
+        import="true">
+
+        <constraints>
+            <constraint
+            id="general-devices-of-power-max"
+            field="selections"
+            scope="parent"
+            value="1"
+            type="max"
+            percentValue="false"/>
+        </constraints>
+
+        <selectionEntries>
+            <selectionEntry
+                id="general-crown-of-command"
+                name="Crown of Command"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="general-cost-crown-of-command"
+                        typeId="points"
+                        name="pts"
+                        value="70.0"/>
+                </costs>
+            </selectionEntry>
+
+            <selectionEntry
+                id="general-helm-of-dominion"
+                name="Helm of Dominion"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="general-cost-helm-of-dominion"
+                        typeId="points"
+                        name="pts"
+                        value="40.0"/>
+                </costs>
+            </selectionEntry>
+
+            <selectionEntry
+                id="general-orb-of-majesty"
+                name="Orb of Majesty"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="general-cost-orb-of-majesty"
+                        typeId="points"
+                        name="pts"
+                        value="30.0"/>
+                </costs>
+
+            </selectionEntry>
+
+            <selectionEntry
+                id="general-sceptre-of-sovereignity"
+                name="Sceptre of Sovereignity"
+                hidden="false"
+                type="upgrade"
+                import="true">
+
+                <costs>
+                    <cost
+                        id="general-cost-sceptre-of-sovereignity"
+                        typeId="points"
+                        name="pts"
+                        value="20.0"/>
                 </costs>
 
             </selectionEntry>
