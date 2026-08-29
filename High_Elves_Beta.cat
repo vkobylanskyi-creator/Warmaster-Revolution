@@ -283,6 +283,16 @@ Chariot Mount. Generals, Wizards and Heroes can ride Chariots. An extra +1 Attac
                     value="1"
                     type="max"
                     percentValue="false"/>
+
+                <constraint
+                    id="general-magic-items-max"
+                    field="selections"
+                    scope="parent"
+                    value="1"
+                    type="max"
+                    percentValue="false"
+                    includeChildSelections="true"
+                    includeChildForces="false"/>
             </constraints>
 
 <!-- ========================= -->
